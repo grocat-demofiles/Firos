@@ -1,0 +1,2226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Firos Photography — Best Pre-Wedding Photographer in Bangalore</title>
+<meta name="description" content="Firos Photography is Bangalore's premier pre-wedding photographer specializing in cinematic, editorial-style couple stories at Nandi Hills, Lalbagh, Bangalore Palace and heritage locations.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ivory:#F8F4ED;
+  --ivory-2:#EFE8DA;
+  --charcoal:#1C1C1C;
+  --charcoal-2:#2A2A2A;
+  --gold:#C9A45C;
+  --gold-soft:#D9BC85;
+  --muted:#6B6357;
+  --line:rgba(28,28,28,.12);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  font-family:'Inter',sans-serif;
+  background:var(--ivory);
+  color:var(--charcoal);
+  line-height:1.6;
+  overflow-x:hidden;
+  -webkit-font-smoothing:antialiased;
+}
+.serif{font-family:'Cormorant Garamond',serif;font-weight:400;letter-spacing:.5px}
+.eyebrow{
+  font-size:11px;letter-spacing:4px;text-transform:uppercase;
+  color:var(--gold);font-weight:500;display:inline-flex;align-items:center;gap:12px;
+}
+.eyebrow::before{content:"";width:32px;height:1px;background:var(--gold)}
+.container{max-width:1400px;margin:0 auto;padding:0 40px}
+@media(max-width:768px){.container{padding:0 24px}}
+
+/* ---------- NAV ---------- */
+.nav{
+  position:fixed;top:0;left:0;right:0;z-index:100;
+  padding:22px 40px;display:flex;align-items:center;justify-content:space-between;
+  transition:all .4s ease;
+}
+.nav.scrolled{background:rgba(248,244,237,.96);backdrop-filter:blur(12px);padding:16px 40px;border-bottom:1px solid var(--line)}
+.nav.light .logo, .nav.light .nav-links a, .nav.light .nav-cta{color:#fff}
+.nav.light .nav-cta{border-color:rgba(255,255,255,.4)}
+.nav.scrolled .logo, .nav.scrolled .nav-links a{color:var(--charcoal)}
+.nav.scrolled .nav-cta{color:var(--charcoal);border-color:var(--charcoal)}
+.logo{font-family:'Cormorant Garamond',serif;font-size:26px;font-weight:500;letter-spacing:2px;color:#fff}
+.logo span{color:var(--gold);font-style:italic}
+.nav-links{display:flex;gap:38px;list-style:none}
+.nav-links a{color:#fff;text-decoration:none;font-size:12px;letter-spacing:2px;text-transform:uppercase;font-weight:400;transition:color .3s}
+.nav-links a:hover{color:var(--gold)}
+.nav-cta{
+  padding:12px 24px;border:1px solid rgba(255,255,255,.4);color:#fff;
+  font-size:11px;letter-spacing:2px;text-transform:uppercase;text-decoration:none;
+  transition:all .3s;background:transparent;cursor:pointer;
+}
+.nav-cta:hover{background:var(--gold);border-color:var(--gold);color:#fff}
+.hamburger{display:none;flex-direction:column;gap:5px;cursor:pointer;background:none;border:none}
+.hamburger span{width:24px;height:1px;background:#fff;transition:.3s}
+.nav.scrolled .hamburger span{background:var(--charcoal)}
+@media(max-width:900px){
+  .nav-links{display:none}
+  .nav-cta{display:none}
+  .hamburger{display:flex}
+  .nav{padding:18px 24px}
+}
+
+/* ---------- HERO ---------- */
+.hero{
+  position:relative;height:100vh;min-height:720px;overflow:hidden;
+  display:flex;align-items:center;
+  background:var(--charcoal);
+}
+.hero-bg{position:absolute;inset:0;z-index:1}
+.hero-bg svg{width:100%;height:100%;display:block}
+.hero-overlay{position:absolute;inset:0;z-index:2;background:linear-gradient(180deg,rgba(0,0,0,.35) 0%,rgba(0,0,0,.15) 40%,rgba(0,0,0,.75) 100%)}
+.hero-content{position:relative;z-index:3;color:#fff;max-width:900px;padding:0 40px;margin:0 auto;text-align:center}
+.hero .eyebrow{color:var(--gold-soft);justify-content:center}
+.hero .eyebrow::before,.hero .eyebrow::after{content:"";width:32px;height:1px;background:var(--gold-soft)}
+.hero h1{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(38px,7vw,88px);
+  font-weight:400;line-height:1.05;margin:22px 0 24px;letter-spacing:-1px;
+}
+.hero h1 em{font-style:italic;color:var(--gold-soft);font-weight:300}
+.hero p{font-size:16px;color:rgba(255,255,255,.82);max-width:560px;margin:0 auto 40px;letter-spacing:.3px;font-weight:300}
+.btn-primary{
+  display:inline-block;padding:18px 42px;background:var(--gold);color:#fff;
+  text-decoration:none;font-size:12px;letter-spacing:3px;text-transform:uppercase;
+  font-weight:500;transition:all .4s;border:1px solid var(--gold);cursor:pointer;
+}
+.btn-primary:hover{background:transparent;color:var(--gold)}
+.btn-outline{
+  display:inline-block;padding:18px 42px;background:transparent;color:var(--charcoal);
+  text-decoration:none;font-size:12px;letter-spacing:3px;text-transform:uppercase;
+  font-weight:500;transition:all .4s;border:1px solid var(--charcoal);cursor:pointer;
+}
+.btn-outline:hover{background:var(--charcoal);color:var(--ivory)}
+.scroll-hint{
+  position:absolute;bottom:32px;left:50%;transform:translateX(-50%);
+  color:rgba(255,255,255,.7);z-index:3;font-size:10px;letter-spacing:3px;
+  text-transform:uppercase;display:flex;flex-direction:column;align-items:center;gap:10px;
+}
+.scroll-hint .line{width:1px;height:40px;background:rgba(255,255,255,.4);position:relative;overflow:hidden}
+.scroll-hint .line::after{content:"";position:absolute;top:-40px;left:0;width:100%;height:40px;background:var(--gold);animation:scrollLine 2.2s infinite}
+@keyframes scrollLine{0%{top:-40px}100%{top:40px}}
+
+/* ---------- SECTION BASE ---------- */
+section{padding:120px 0;position:relative}
+.section-head{text-align:center;max-width:720px;margin:0 auto 80px}
+.section-head h2{
+  font-family:'Cormorant Garamond',serif;font-size:clamp(34px,4.5vw,58px);
+  font-weight:400;line-height:1.1;margin:20px 0 20px;letter-spacing:-.5px;
+}
+.section-head h2 em{font-style:italic;color:var(--gold)}
+.section-head p{color:var(--muted);font-size:15px;font-weight:300;line-height:1.8}
+@media(max-width:768px){section{padding:80px 0}.section-head{margin-bottom:56px}}
+
+/* ---------- INTRO ---------- */
+.intro{background:var(--ivory)}
+.intro-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;align-items:center}
+.intro-img{aspect-ratio:4/5;overflow:hidden;position:relative;background:#e8dfcc}
+.intro-img svg{width:100%;height:100%;display:block}
+.intro-text .eyebrow{margin-bottom:20px}
+.intro-text h2{font-family:'Cormorant Garamond',serif;font-size:clamp(32px,3.8vw,52px);font-weight:400;line-height:1.15;margin-bottom:28px}
+.intro-text h2 em{font-style:italic;color:var(--gold)}
+.intro-text p{color:var(--muted);margin-bottom:20px;font-size:15px;line-height:1.9;font-weight:300}
+.signature{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:28px;color:var(--charcoal);margin-top:30px}
+.signature small{display:block;font-family:'Inter',sans-serif;font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--muted);margin-top:4px;font-style:normal}
+@media(max-width:900px){.intro-grid{grid-template-columns:1fr;gap:48px}}
+
+/* ---------- STORIES (Featured Couples) ---------- */
+.stories{background:var(--charcoal);color:var(--ivory)}
+.stories .section-head h2{color:var(--ivory)}
+.stories .section-head p{color:rgba(248,244,237,.7)}
+.masonry{
+  columns:3;column-gap:28px;
+}
+.story-card{
+  break-inside:avoid;margin-bottom:28px;position:relative;overflow:hidden;
+  cursor:pointer;display:block;
+}
+.story-card .img{width:100%;display:block;overflow:hidden;background:#333;position:relative}
+.story-card svg{width:100%;height:auto;display:block;transition:transform 1.2s}
+.story-card:hover svg{transform:scale(1.05)}
+.story-meta{padding:20px 4px 0}
+.story-meta .couple{font-family:'Cormorant Garamond',serif;font-size:22px;font-style:italic}
+.story-meta .location{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-soft);margin-top:6px}
+.story-meta .caption{font-size:13px;color:rgba(248,244,237,.65);margin-top:10px;font-weight:300;line-height:1.7}
+@media(max-width:1000px){.masonry{columns:2}}
+@media(max-width:600px){.masonry{columns:1}}
+
+/* ---------- LOCATIONS ---------- */
+.locations{background:var(--ivory-2)}
+.loc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:32px}
+.loc-card{
+  position:relative;overflow:hidden;aspect-ratio:3/4;
+  cursor:pointer;background:#333;
+}
+.loc-card svg{width:100%;height:100%;display:block;transition:transform 1s ease}
+.loc-card:hover svg{transform:scale(1.06)}
+.loc-card .overlay{
+  position:absolute;inset:0;
+  background:linear-gradient(180deg,transparent 40%,rgba(0,0,0,.85) 100%);
+  display:flex;flex-direction:column;justify-content:flex-end;padding:28px;color:#fff;
+  transition:all .4s;
+}
+.loc-card .num{font-family:'Cormorant Garamond',serif;font-size:14px;color:var(--gold-soft);font-style:italic;margin-bottom:8px}
+.loc-card h3{font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:400;margin-bottom:8px}
+.loc-card .time{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:rgba(255,255,255,.75);margin-bottom:16px}
+.loc-card .view{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-soft);display:inline-flex;align-items:center;gap:10px;font-weight:500}
+.loc-card .view::after{content:"→";transition:transform .3s}
+.loc-card:hover .view::after{transform:translateX(6px)}
+@media(max-width:900px){.loc-grid{grid-template-columns:repeat(2,1fr);gap:20px}}
+@media(max-width:600px){.loc-grid{grid-template-columns:1fr}}
+
+/* ---------- STYLE / APPROACH ---------- */
+.approach{background:var(--ivory)}
+.approach-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:48px;margin-top:24px}
+.approach-item{text-align:center}
+.approach-item .num{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:56px;color:var(--gold);line-height:1;margin-bottom:16px}
+.approach-item h4{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:400;margin-bottom:12px}
+.approach-item p{color:var(--muted);font-size:14px;font-weight:300;line-height:1.8}
+@media(max-width:900px){.approach-grid{grid-template-columns:repeat(2,1fr);gap:40px}}
+
+/* ---------- TRUST BAR ---------- */
+.trust{background:var(--charcoal);color:var(--ivory);padding:80px 0}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;text-align:center}
+.trust-item .num{font-family:'Cormorant Garamond',serif;font-size:64px;font-weight:400;color:var(--gold);line-height:1;letter-spacing:-1px}
+.trust-item .num sup{font-size:32px;vertical-align:super}
+.trust-item .label{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:rgba(248,244,237,.7);margin-top:12px}
+.trust-divider{width:60px;height:1px;background:var(--gold);margin:14px auto 0}
+.publications{margin-top:80px;text-align:center;padding-top:60px;border-top:1px solid rgba(248,244,237,.12)}
+.publications p{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:rgba(248,244,237,.5);margin-bottom:32px}
+.pub-logos{display:flex;justify-content:center;align-items:center;gap:60px;flex-wrap:wrap}
+.pub-logo{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:22px;color:rgba(248,244,237,.55);letter-spacing:1px}
+@media(max-width:768px){
+  .trust-grid{grid-template-columns:repeat(2,1fr);gap:40px}
+  .trust-item .num{font-size:48px}
+  .pub-logos{gap:32px}
+  .pub-logo{font-size:18px}
+}
+
+/* ---------- BEFORE/AFTER ---------- */
+.compare{background:var(--ivory)}
+.compare-wrap{max-width:1100px;margin:0 auto}
+.slider{
+  position:relative;aspect-ratio:16/10;overflow:hidden;user-select:none;
+  cursor:ew-resize;background:#333;box-shadow:0 40px 80px -30px rgba(0,0,0,.35);
+}
+.slider .before,.slider .after{position:absolute;inset:0;width:100%;height:100%;overflow:hidden}
+.slider .before svg,.slider .after svg{width:100%;height:100%;display:block;object-fit:cover}
+.slider .after{clip-path:inset(0 0 0 50%)}
+.slider .handle{
+  position:absolute;top:0;bottom:0;left:50%;width:2px;background:#fff;
+  transform:translateX(-50%);z-index:5;pointer-events:none;
+  box-shadow:0 0 0 1px rgba(0,0,0,.15);
+}
+.slider .knob{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:52px;height:52px;background:#fff;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  box-shadow:0 8px 24px rgba(0,0,0,.25);z-index:6;pointer-events:none;
+  font-size:16px;color:var(--charcoal);
+}
+.slider .label{
+  position:absolute;top:20px;padding:8px 16px;background:rgba(0,0,0,.55);
+  color:#fff;font-size:10px;letter-spacing:3px;text-transform:uppercase;z-index:4;
+  backdrop-filter:blur(6px);
+}
+.slider .label.l{left:20px}
+.slider .label.r{right:20px}
+
+/* ---------- YOUTUBE FILMS ---------- */
+.films{background:var(--charcoal);color:var(--ivory);position:relative;overflow:hidden}
+.films::before{
+  content:"";position:absolute;top:0;left:0;right:0;height:1px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+.films .section-head h2{color:var(--ivory)}
+.films .section-head p{color:rgba(248,244,237,.7)}
+.yt-badge{display:inline-flex;align-items:center;gap:10px;margin-bottom:20px}
+.yt-badge svg{width:22px;height:22px;fill:#FF0000}
+.yt-badge span{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold)}
+
+.film-featured{
+  position:relative;aspect-ratio:16/9;overflow:hidden;margin-bottom:60px;
+  cursor:pointer;background:#000;box-shadow:0 40px 100px -30px rgba(201,164,92,.25);
+  border:1px solid rgba(201,164,92,.2);
+}
+.film-featured svg{width:100%;height:100%;display:block;transition:transform 1.2s}
+.film-featured:hover svg{transform:scale(1.03)}
+.film-featured .play-btn{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:100px;height:100px;border-radius:50%;background:rgba(201,164,92,.95);
+  display:flex;align-items:center;justify-content:center;
+  transition:all .4s;z-index:3;box-shadow:0 20px 40px rgba(0,0,0,.4);
+}
+.film-featured:hover .play-btn{transform:translate(-50%,-50%) scale(1.08);background:var(--gold)}
+.film-featured .play-btn::before{
+  content:"";width:0;height:0;
+  border-left:26px solid #fff;border-top:16px solid transparent;border-bottom:16px solid transparent;
+  margin-left:6px;
+}
+.film-featured .film-meta{
+  position:absolute;bottom:0;left:0;right:0;padding:36px 40px;z-index:3;
+  background:linear-gradient(transparent,rgba(0,0,0,.9));
+}
+.film-featured .film-tag{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold-soft);margin-bottom:10px;display:inline-block}
+.film-featured h3{font-family:'Cormorant Garamond',serif;font-size:clamp(26px,3vw,42px);font-weight:400;color:#fff;margin-bottom:8px}
+.film-featured .film-info{display:flex;gap:24px;font-size:12px;color:rgba(255,255,255,.7);letter-spacing:1px}
+.film-featured .film-info span::before{content:"·";margin-right:24px;color:var(--gold)}
+.film-featured .film-info span:first-child::before{display:none}
+@media(max-width:768px){
+  .film-featured .play-btn{width:72px;height:72px}
+  .film-featured .play-btn::before{border-left-width:18px;border-top-width:11px;border-bottom-width:11px}
+  .film-featured .film-meta{padding:24px}
+}
+
+.shorts-header{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:32px;gap:20px;flex-wrap:wrap}
+.shorts-header h3{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:400;color:var(--ivory)}
+.shorts-header h3 em{font-style:italic;color:var(--gold)}
+.shorts-header a{color:var(--gold);font-size:11px;letter-spacing:3px;text-transform:uppercase;text-decoration:none;display:inline-flex;align-items:center;gap:8px}
+.shorts-header a::after{content:"→";transition:transform .3s}
+.shorts-header a:hover::after{transform:translateX(6px)}
+
+.shorts-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.short-card{
+  position:relative;aspect-ratio:9/16;overflow:hidden;cursor:pointer;
+  background:#0f0f0f;border:1px solid rgba(201,164,92,.15);transition:all .4s;
+}
+.short-card:hover{border-color:var(--gold);transform:translateY(-4px)}
+.short-card svg{width:100%;height:100%;display:block;transition:transform 1s}
+.short-card:hover svg{transform:scale(1.06)}
+.short-card .play-mini{
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  width:52px;height:52px;border-radius:50%;background:rgba(255,255,255,.15);
+  backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;
+  transition:all .3s;z-index:3;border:1px solid rgba(255,255,255,.3);
+}
+.short-card:hover .play-mini{background:var(--gold);border-color:var(--gold)}
+.short-card .play-mini::before{
+  content:"";width:0;height:0;
+  border-left:14px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;
+  margin-left:3px;
+}
+.short-card .short-meta{
+  position:absolute;bottom:0;left:0;right:0;padding:16px;z-index:3;
+  background:linear-gradient(transparent,rgba(0,0,0,.9));
+}
+.short-card .short-title{font-family:'Cormorant Garamond',serif;font-size:16px;color:#fff;font-style:italic;line-height:1.3;margin-bottom:6px}
+.short-card .short-views{font-size:10px;letter-spacing:1.5px;color:rgba(255,255,255,.65);display:flex;align-items:center;gap:6px}
+.short-card .short-views svg{width:12px;height:12px;fill:var(--gold-soft)}
+.short-card .duration{
+  position:absolute;top:14px;right:14px;z-index:3;
+  padding:4px 8px;background:rgba(0,0,0,.7);color:#fff;
+  font-size:10px;letter-spacing:1px;backdrop-filter:blur(4px);
+}
+@media(max-width:900px){.shorts-grid{grid-template-columns:repeat(2,1fr);gap:16px}}
+@media(max-width:480px){.shorts-grid{grid-template-columns:repeat(2,1fr);gap:12px}.short-card .play-mini{width:44px;height:44px}}
+
+/* ---------- INSTAGRAM ---------- */
+.instagram{background:var(--ivory);position:relative}
+.ig-handle{
+  display:inline-flex;align-items:center;gap:12px;
+  padding:10px 20px;background:var(--charcoal);color:var(--ivory);
+  border-radius:50px;font-size:12px;letter-spacing:2px;
+  text-decoration:none;margin-top:32px;transition:all .3s;
+}
+.ig-handle:hover{background:var(--gold)}
+.ig-handle svg{width:16px;height:16px;fill:currentColor}
+
+.reels-track{
+  display:flex;gap:20px;overflow-x:auto;scroll-snap-type:x mandatory;
+  padding:20px 40px 30px;margin:0 -40px 60px;scrollbar-width:none;
+}
+.reels-track::-webkit-scrollbar{display:none}
+.reel-card{
+  flex:0 0 260px;aspect-ratio:9/16;position:relative;overflow:hidden;
+  cursor:pointer;scroll-snap-align:center;background:#111;
+  box-shadow:0 20px 50px -20px rgba(0,0,0,.35);
+  transition:transform .4s;
+}
+.reel-card:hover{transform:translateY(-6px)}
+.reel-card svg{width:100%;height:100%;display:block;transition:transform 1s}
+.reel-card:hover svg{transform:scale(1.05)}
+.reel-card .reel-overlay{
+  position:absolute;inset:0;z-index:3;padding:20px;
+  display:flex;flex-direction:column;justify-content:space-between;
+  background:linear-gradient(180deg,rgba(0,0,0,.4) 0%,transparent 30%,transparent 60%,rgba(0,0,0,.85) 100%);
+  color:#fff;
+}
+.reel-card .reel-top{display:flex;justify-content:space-between;align-items:flex-start}
+.reel-icon{
+  width:26px;height:26px;fill:#fff;filter:drop-shadow(0 2px 4px rgba(0,0,0,.4));
+}
+.reel-card .plays{
+  background:rgba(0,0,0,.5);backdrop-filter:blur(4px);
+  padding:5px 10px;font-size:10px;letter-spacing:1px;
+  display:flex;align-items:center;gap:5px;
+}
+.reel-card .plays svg{width:12px;height:12px;fill:#fff}
+.reel-card .reel-bottom .reel-title{
+  font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;
+  line-height:1.3;margin-bottom:8px;
+}
+.reel-card .reel-bottom .reel-caption{font-size:11px;color:rgba(255,255,255,.75);letter-spacing:.5px}
+.reel-card .reel-bottom .reel-caption b{color:var(--gold-soft);font-weight:500}
+@media(max-width:600px){.reel-card{flex:0 0 220px}}
+
+.ig-grid{display:grid;grid-template-columns:repeat(6,1fr);gap:8px}
+.ig-tile{
+  position:relative;aspect-ratio:1/1;overflow:hidden;cursor:pointer;
+  background:#333;
+}
+.ig-tile svg{width:100%;height:100%;display:block;transition:transform .8s}
+.ig-tile:hover svg{transform:scale(1.08)}
+.ig-tile .ig-hover{
+  position:absolute;inset:0;background:rgba(28,28,28,.6);
+  display:flex;align-items:center;justify-content:center;gap:20px;color:#fff;
+  opacity:0;transition:opacity .4s;font-size:13px;font-weight:500;
+}
+.ig-tile:hover .ig-hover{opacity:1}
+.ig-tile .ig-hover span{display:flex;align-items:center;gap:6px}
+.ig-tile .ig-hover svg{width:16px;height:16px;fill:#fff;transform:none;transition:none}
+.ig-tile .ig-badge{
+  position:absolute;top:10px;right:10px;z-index:3;
+  width:22px;height:22px;color:#fff;filter:drop-shadow(0 2px 4px rgba(0,0,0,.5));
+}
+.ig-tile .ig-badge svg{width:100%;height:100%;fill:#fff;transform:none;transition:none}
+@media(max-width:1000px){.ig-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:500px){.ig-grid{grid-template-columns:repeat(2,1fr)}}
+
+/* ---------- TESTIMONIALS ---------- */
+.testimonials{background:var(--ivory-2)}
+.testi-track{display:flex;gap:32px;overflow-x:auto;scroll-snap-type:x mandatory;padding:20px 40px;margin:0 -40px;scrollbar-width:none}
+.testi-track::-webkit-scrollbar{display:none}
+.testi-card{
+  flex:0 0 460px;background:var(--ivory);padding:48px 40px;
+  scroll-snap-align:center;border:1px solid var(--line);
+}
+.quote-mark{font-family:'Cormorant Garamond',serif;font-size:80px;color:var(--gold);line-height:.5;margin-bottom:8px;font-style:italic}
+.testi-card p{font-family:'Cormorant Garamond',serif;font-size:20px;font-style:italic;line-height:1.6;color:var(--charcoal);margin-bottom:32px;font-weight:400}
+.testi-author{display:flex;align-items:center;gap:16px}
+.testi-avatar{width:52px;height:52px;border-radius:50%;background:linear-gradient(135deg,#c9a45c,#8b6f3f);display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Cormorant Garamond',serif;font-size:20px;font-style:italic}
+.testi-name{font-family:'Cormorant Garamond',serif;font-size:20px}
+.testi-role{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--muted);margin-top:2px}
+@media(max-width:600px){.testi-card{flex:0 0 85vw;padding:36px 28px}}
+
+/* ---------- PACKAGES ---------- */
+.packages{background:var(--charcoal);color:var(--ivory)}
+.packages .section-head h2{color:var(--ivory)}
+.packages .section-head p{color:rgba(248,244,237,.7)}
+.pkg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:2px;background:rgba(201,164,92,.2)}
+.pkg{
+  background:var(--charcoal-2);padding:56px 40px;position:relative;
+  transition:background .4s;display:flex;flex-direction:column;
+}
+.pkg:hover{background:#1f1f1f}
+.pkg.featured{background:linear-gradient(180deg,#1f1a10,#1a1a1a);border-top:2px solid var(--gold)}
+.pkg-name{font-family:'Cormorant Garamond',serif;font-size:32px;font-style:italic;color:var(--gold);margin-bottom:8px}
+.pkg-tag{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:rgba(248,244,237,.55);margin-bottom:32px}
+.pkg-price{font-family:'Cormorant Garamond',serif;font-size:14px;color:rgba(248,244,237,.7);margin-bottom:28px;padding-bottom:28px;border-bottom:1px solid rgba(248,244,237,.12);font-style:italic}
+.pkg-price strong{font-size:32px;font-style:normal;color:var(--ivory);display:block;margin-top:4px;font-weight:400}
+.pkg ul{list-style:none;margin-bottom:32px;flex-grow:1}
+.pkg li{padding:10px 0;border-bottom:1px solid rgba(248,244,237,.08);font-size:13px;color:rgba(248,244,237,.85);font-weight:300;display:flex;align-items:flex-start;gap:12px}
+.pkg li::before{content:"✦";color:var(--gold);font-size:10px;margin-top:5px;flex-shrink:0}
+.pkg li:last-child{border-bottom:none}
+.pkg .btn-primary{width:100%;text-align:center;background:transparent;border-color:var(--gold);color:var(--gold)}
+.pkg .btn-primary:hover{background:var(--gold);color:#fff}
+.pkg.featured .btn-primary{background:var(--gold);color:#fff}
+.pkg.featured .btn-primary:hover{background:transparent;color:var(--gold)}
+@media(max-width:900px){.pkg-grid{grid-template-columns:1fr;gap:2px}}
+
+/* ---------- SEO CONTENT ---------- */
+.seo{background:var(--ivory-2);position:relative;padding:120px 0}
+.seo-hero{max-width:900px;margin:0 auto 80px;text-align:center}
+.seo-hero h2{
+  font-family:'Cormorant Garamond',serif;
+  font-size:clamp(34px,4.5vw,58px);font-weight:400;line-height:1.15;
+  margin:20px 0 24px;letter-spacing:-.5px;
+}
+.seo-hero h2 em{font-style:italic;color:var(--gold)}
+.seo-hero .lede{font-size:17px;line-height:1.8;color:var(--charcoal);font-weight:300;max-width:720px;margin:0 auto}
+
+.seo-cols{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-bottom:90px;align-items:start}
+.seo-cols .col{}
+.seo-block h3{
+  font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:400;
+  line-height:1.2;margin-bottom:20px;color:var(--charcoal);
+  padding-bottom:16px;border-bottom:1px solid var(--line);
+  position:relative;
+}
+.seo-block h3::after{
+  content:"";position:absolute;bottom:-1px;left:0;width:60px;height:1px;background:var(--gold);
+}
+.seo-block h3 em{font-style:italic;color:var(--gold)}
+.seo-block p{color:var(--muted);font-size:15px;line-height:1.9;margin-bottom:18px;font-weight:300}
+.seo-block p strong{color:var(--charcoal);font-weight:500}
+.seo-block + .seo-block{margin-top:56px}
+
+.seo-list{list-style:none;margin:20px 0}
+.seo-list li{
+  padding:14px 0 14px 32px;position:relative;
+  color:var(--muted);font-size:14px;line-height:1.7;font-weight:300;
+  border-bottom:1px solid rgba(28,28,28,.08);
+}
+.seo-list li:last-child{border-bottom:none}
+.seo-list li::before{
+  content:"";position:absolute;left:0;top:22px;
+  width:16px;height:1px;background:var(--gold);
+}
+.seo-list li strong{
+  display:block;color:var(--charcoal);font-weight:500;font-size:15px;
+  margin-bottom:4px;font-family:'Cormorant Garamond',serif;font-size:18px;font-style:italic;
+}
+
+.seo-full{
+  background:var(--ivory);padding:64px 60px;margin-top:20px;
+  border:1px solid var(--line);position:relative;
+}
+.seo-full::before{
+  content:"";position:absolute;top:0;left:0;width:100%;height:2px;
+  background:linear-gradient(90deg,transparent,var(--gold),transparent);
+}
+.seo-full h3{
+  font-family:'Cormorant Garamond',serif;font-size:34px;font-weight:400;
+  text-align:center;margin-bottom:14px;letter-spacing:-.3px;
+}
+.seo-full h3 em{font-style:italic;color:var(--gold)}
+.seo-full .sub{text-align:center;color:var(--muted);font-size:14px;letter-spacing:2px;text-transform:uppercase;margin-bottom:48px}
+.seo-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:40px}
+.seo-step{position:relative;padding-top:20px}
+.seo-step .step-num{
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  font-size:56px;color:var(--gold);line-height:1;font-weight:400;
+  opacity:.4;margin-bottom:8px;
+}
+.seo-step h4{
+  font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;
+  margin-bottom:12px;color:var(--charcoal);
+}
+.seo-step p{color:var(--muted);font-size:13px;line-height:1.75;font-weight:300}
+
+.seo-keywords{
+  margin-top:70px;text-align:center;padding-top:50px;
+  border-top:1px solid var(--line);
+}
+.seo-keywords p{
+  font-size:10px;letter-spacing:4px;text-transform:uppercase;
+  color:var(--muted);margin-bottom:24px;
+}
+.seo-keywords .tags{display:flex;justify-content:center;flex-wrap:wrap;gap:10px;max-width:900px;margin:0 auto}
+.seo-keywords .tag{
+  padding:8px 18px;background:var(--ivory);border:1px solid var(--line);
+  color:var(--charcoal);font-size:12px;letter-spacing:.5px;
+  font-family:'Cormorant Garamond',serif;font-style:italic;
+  transition:all .3s;cursor:default;
+}
+.seo-keywords .tag:hover{background:var(--charcoal);color:var(--gold-soft);border-color:var(--charcoal)}
+
+@media(max-width:900px){
+  .seo-cols{grid-template-columns:1fr;gap:56px}
+  .seo-steps{grid-template-columns:repeat(2,1fr);gap:32px}
+  .seo-full{padding:40px 28px}
+}
+@media(max-width:520px){
+  .seo-steps{grid-template-columns:1fr}
+}
+
+/* ---------- FAQ ---------- */
+.faq{background:var(--ivory)}
+.faq-list{max-width:820px;margin:0 auto}
+.faq-item{border-bottom:1px solid var(--line);padding:0}
+.faq-q{
+  width:100%;background:none;border:none;padding:28px 0;
+  font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:400;text-align:left;
+  color:var(--charcoal);cursor:pointer;display:flex;justify-content:space-between;align-items:center;gap:20px;
+}
+.faq-q:hover{color:var(--gold)}
+.faq-toggle{
+  width:28px;height:28px;border:1px solid var(--charcoal);border-radius:50%;
+  display:flex;align-items:center;justify-content:center;font-size:14px;
+  transition:all .3s;flex-shrink:0;
+}
+.faq-item.open .faq-toggle{background:var(--gold);border-color:var(--gold);color:#fff;transform:rotate(45deg)}
+.faq-a{max-height:0;overflow:hidden;transition:max-height .5s ease}
+.faq-a p{padding:0 0 28px;color:var(--muted);font-size:15px;line-height:1.85;font-weight:300;max-width:720px}
+.faq-item.open .faq-a{max-height:400px}
+
+/* ---------- CTA ---------- */
+.cta{
+  position:relative;padding:140px 0;overflow:hidden;
+  background:var(--charcoal);color:var(--ivory);text-align:center;
+}
+.cta-bg{position:absolute;inset:0;opacity:.25;z-index:1}
+.cta-bg svg{width:100%;height:100%}
+.cta-content{position:relative;z-index:2;max-width:720px;margin:0 auto;padding:0 40px}
+.cta h2{font-family:'Cormorant Garamond',serif;font-size:clamp(38px,5vw,68px);font-weight:400;line-height:1.1;margin:24px 0 24px}
+.cta h2 em{font-style:italic;color:var(--gold-soft)}
+.cta p{color:rgba(248,244,237,.75);font-size:16px;margin-bottom:44px;font-weight:300}
+.cta-btns{display:flex;gap:16px;justify-content:center;flex-wrap:wrap}
+.cta .btn-outline{color:var(--ivory);border-color:rgba(248,244,237,.4)}
+.cta .btn-outline:hover{background:var(--ivory);color:var(--charcoal);border-color:var(--ivory)}
+
+/* ---------- FOOTER ---------- */
+footer{background:#0f0f0f;color:rgba(248,244,237,.7);padding:80px 0 30px}
+.foot-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:60px;margin-bottom:60px}
+.foot-brand h3{font-family:'Cormorant Garamond',serif;font-size:32px;color:var(--ivory);margin-bottom:16px;font-weight:500;letter-spacing:2px}
+.foot-brand h3 span{color:var(--gold);font-style:italic}
+.foot-brand p{font-size:14px;line-height:1.8;max-width:340px;font-weight:300}
+.foot-col h5{font-size:11px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:20px;font-weight:500}
+.foot-col a,.foot-col p{display:block;color:rgba(248,244,237,.65);text-decoration:none;font-size:14px;margin-bottom:10px;font-weight:300;transition:color .3s}
+.foot-col a:hover{color:var(--gold)}
+.foot-bottom{padding-top:30px;border-top:1px solid rgba(248,244,237,.1);display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:12px;color:rgba(248,244,237,.5)}
+@media(max-width:900px){.foot-grid{grid-template-columns:1fr 1fr;gap:40px}}
+@media(max-width:600px){.foot-grid{grid-template-columns:1fr}}
+
+/* ---------- WHATSAPP FLOAT ---------- */
+.whatsapp-fab{
+  position:fixed;bottom:28px;right:28px;width:56px;height:56px;border-radius:50%;
+  background:#25D366;display:flex;align-items:center;justify-content:center;z-index:90;
+  box-shadow:0 12px 30px rgba(37,211,102,.35);cursor:pointer;transition:transform .3s;
+}
+.whatsapp-fab:hover{transform:scale(1.08)}
+.whatsapp-fab svg{width:28px;height:28px;fill:#fff}
+
+/* fade-in */
+.fade{opacity:0;transform:translateY(30px);transition:opacity 1s ease,transform 1s ease}
+.fade.in{opacity:1;transform:translateY(0)}
+</style>
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<nav class="nav light" id="nav">
+  <div class="logo">FIROS<span>.</span></div>
+  <ul class="nav-links">
+    <li><a href="#stories">Stories</a></li>
+    <li><a href="#films">Films</a></li>
+    <li><a href="#locations">Locations</a></li>
+    <li><a href="#instagram">Instagram</a></li>
+    <li><a href="#packages">Packages</a></li>
+    <li><a href="#about">About</a></li>
+  </ul>
+  <a href="#cta" class="nav-cta">Enquire</a>
+  <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="hero-bg">
+    <!-- Cinematic couple silhouette at Nandi Hills sunrise -->
+    <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#3d2817"/>
+          <stop offset="30%" stop-color="#7a4a2b"/>
+          <stop offset="55%" stop-color="#c9884a"/>
+          <stop offset="75%" stop-color="#e0a968"/>
+          <stop offset="100%" stop-color="#f4d296"/>
+        </linearGradient>
+        <radialGradient id="sun" cx="72%" cy="55%" r="18%">
+          <stop offset="0%" stop-color="#fff5d6"/>
+          <stop offset="40%" stop-color="#ffe0a0" stop-opacity=".8"/>
+          <stop offset="100%" stop-color="#ffe0a0" stop-opacity="0"/>
+        </radialGradient>
+        <linearGradient id="mist" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#e6c99e" stop-opacity="0"/>
+          <stop offset="100%" stop-color="#e6c99e" stop-opacity=".6"/>
+        </linearGradient>
+        <linearGradient id="hills1" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#4a3220"/>
+          <stop offset="100%" stop-color="#2a1c10"/>
+        </linearGradient>
+        <linearGradient id="hills2" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%" stop-color="#6b4630"/>
+          <stop offset="100%" stop-color="#4a3220"/>
+        </linearGradient>
+      </defs>
+      <!-- Sky -->
+      <rect width="1600" height="900" fill="url(#sky)"/>
+      <!-- Sun glow -->
+      <rect width="1600" height="900" fill="url(#sun)"/>
+      <circle cx="1150" cy="490" r="65" fill="#fff8e0" opacity=".9"/>
+      <!-- Distant mountain layers -->
+      <path d="M0,620 L120,590 L260,610 L400,580 L560,600 L720,570 L880,595 L1040,565 L1200,590 L1360,570 L1500,595 L1600,585 L1600,900 L0,900 Z" fill="#8a5f3d" opacity=".55"/>
+      <path d="M0,660 L140,635 L300,655 L460,625 L620,650 L780,620 L940,645 L1100,615 L1260,640 L1420,620 L1600,640 L1600,900 L0,900 Z" fill="url(#hills2)" opacity=".85"/>
+      <!-- Mist band -->
+      <rect y="640" width="1600" height="120" fill="url(#mist)" opacity=".7"/>
+      <!-- Near hill -->
+      <path d="M0,720 L180,700 L360,725 L560,695 L780,720 L1000,690 L1220,715 L1440,695 L1600,715 L1600,900 L0,900 Z" fill="url(#hills1)"/>
+      <!-- Ground -->
+      <rect y="800" width="1600" height="100" fill="#1a0f08"/>
+      <!-- Grass detail -->
+      <path d="M0,810 Q80,795 160,808 T320,806 T480,810 T640,804 T800,808 T960,806 T1120,810 T1280,806 T1440,808 T1600,806 L1600,900 L0,900 Z" fill="#0d0805"/>
+      <!-- Couple silhouette -->
+      <g transform="translate(760,610)">
+        <!-- her dress flowing -->
+        <path d="M60,60 Q40,120 30,180 Q35,220 55,230 L115,230 Q135,220 140,180 Q130,120 110,60 Z" fill="#0a0503"/>
+        <!-- her body -->
+        <ellipse cx="85" cy="45" rx="12" ry="15" fill="#0a0503"/>
+        <path d="M75,55 L95,55 L100,90 L70,90 Z" fill="#0a0503"/>
+        <!-- his body -->
+        <ellipse cx="130" cy="42" rx="13" ry="16" fill="#0a0503"/>
+        <path d="M118,55 L142,55 L148,140 L112,140 Z" fill="#0a0503"/>
+        <path d="M112,140 L148,140 L152,230 L108,230 Z" fill="#0a0503"/>
+        <!-- his arm around her -->
+        <path d="M118,70 Q95,75 78,68 L82,80 Q100,88 120,82 Z" fill="#0a0503"/>
+        <!-- veil trailing -->
+        <path d="M78,50 Q30,80 5,140 Q0,150 8,148 Q40,130 82,90 Z" fill="#0a0503" opacity=".6"/>
+      </g>
+      <!-- Lens flare specks -->
+      <circle cx="1150" cy="490" r="4" fill="#fff" opacity=".8"/>
+      <circle cx="900" cy="600" r="2" fill="#fff" opacity=".5"/>
+      <circle cx="1300" cy="400" r="3" fill="#fff" opacity=".4"/>
+      <circle cx="500" cy="550" r="2" fill="#fff" opacity=".4"/>
+      <!-- Golden hour dust -->
+      <g opacity=".4">
+        <circle cx="200" cy="300" r="1.5" fill="#fff5d6"/>
+        <circle cx="400" cy="450" r="1" fill="#fff5d6"/>
+        <circle cx="700" cy="380" r="1.5" fill="#fff5d6"/>
+        <circle cx="1000" cy="320" r="1" fill="#fff5d6"/>
+        <circle cx="1300" cy="550" r="1.5" fill="#fff5d6"/>
+        <circle cx="1450" cy="300" r="1" fill="#fff5d6"/>
+      </g>
+    </svg>
+  </div>
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <span class="eyebrow">Est. 2014 · Bangalore</span>
+    <h1>Best Pre-Wedding<br>Photographer in <em>Bangalore</em></h1>
+    <p>Cinematic love stories, timeless portraits, and editorial imagery crafted for couples who value the poetry of a single, unrepeatable moment.</p>
+    <a href="#cta" class="btn-primary">Plan Your Pre-Wedding Shoot</a>
+  </div>
+  <div class="scroll-hint"><span>Scroll</span><div class="line"></div></div>
+</section>
+
+<!-- ============ INTRO ============ -->
+<section class="intro" id="intro">
+  <div class="container">
+    <div class="intro-grid">
+      <div class="intro-img fade">
+        <svg viewBox="0 0 500 620" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="bgi1" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0%" stop-color="#d9b988"/>
+              <stop offset="100%" stop-color="#8a6a3d"/>
+            </linearGradient>
+          </defs>
+          <rect width="500" height="620" fill="url(#bgi1)"/>
+          <!-- soft bokeh -->
+          <circle cx="80" cy="120" r="60" fill="#f4d29a" opacity=".4"/>
+          <circle cx="420" cy="180" r="80" fill="#e8b979" opacity=".35"/>
+          <circle cx="150" cy="480" r="70" fill="#f0c88a" opacity=".3"/>
+          <!-- photographer silhouette shooting -->
+          <g transform="translate(180,180)">
+            <ellipse cx="70" cy="60" rx="22" ry="26" fill="#1c1c1c"/>
+            <path d="M50,80 L90,80 L100,220 L40,220 Z" fill="#1c1c1c"/>
+            <!-- camera -->
+            <rect x="60" y="90" width="55" height="35" rx="4" fill="#0a0a0a"/>
+            <circle cx="87" cy="107" r="12" fill="#2a2a2a"/>
+            <circle cx="87" cy="107" r="7" fill="#0a0a0a"/>
+            <!-- arms holding camera -->
+            <path d="M45,95 L65,110 L60,130 L40,120 Z" fill="#1c1c1c"/>
+            <path d="M110,95 L128,110 L124,130 L108,125 Z" fill="#1c1c1c"/>
+            <!-- legs -->
+            <path d="M55,220 L70,320 L82,320 L75,220 Z" fill="#1c1c1c"/>
+            <path d="M75,220 L85,320 L98,320 L90,220 Z" fill="#1c1c1c"/>
+          </g>
+          <!-- film strip decoration -->
+          <g transform="translate(20,540)" opacity=".3">
+            <rect width="460" height="30" fill="#1c1c1c"/>
+            <g fill="#d9b988">
+              <rect x="10" y="5" width="8" height="6"/><rect x="10" y="19" width="8" height="6"/>
+              <rect x="30" y="5" width="8" height="6"/><rect x="30" y="19" width="8" height="6"/>
+              <rect x="50" y="5" width="8" height="6"/><rect x="50" y="19" width="8" height="6"/>
+              <rect x="70" y="5" width="8" height="6"/><rect x="70" y="19" width="8" height="6"/>
+              <rect x="90" y="5" width="8" height="6"/><rect x="90" y="19" width="8" height="6"/>
+              <rect x="110" y="5" width="8" height="6"/><rect x="110" y="19" width="8" height="6"/>
+            </g>
+          </g>
+        </svg>
+      </div>
+      <div class="intro-text fade">
+        <span class="eyebrow">The Photographer</span>
+        <h2>Every couple has a story. <em>We photograph the feeling of it.</em></h2>
+        <p>For over a decade, Firos Photography has been chosen by discerning couples across South India to document the quiet, unguarded chapter that lives between the proposal and the wedding day.</p>
+        <p>Our work sits at the intersection of editorial fashion, documentary romance, and Indian tradition — soft, warm, deeply human, and unmistakably cinematic.</p>
+        <div class="signature">— Firos<small>Founder & Lead Photographer</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FEATURED STORIES (Masonry) ============ -->
+<section class="stories" id="stories">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">Featured Couple Stories</span>
+      <h2>Chapters in <em>colour, light and love</em></h2>
+      <p>A curated selection of pre-wedding films and portrait sessions photographed across Bangalore, the Nilgiris, Coorg, and beyond.</p>
+    </div>
+
+    <div class="masonry">
+      <a href="#" class="story-card fade">
+        <div class="img">
+          <svg viewBox="0 0 400 520" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="s1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9a45c"/><stop offset="100%" stop-color="#6b4a20"/></linearGradient></defs>
+            <rect width="400" height="520" fill="url(#s1)"/>
+            <circle cx="320" cy="120" r="50" fill="#f4d296" opacity=".5"/>
+            <!-- couple embracing -->
+            <g transform="translate(120,220)">
+              <ellipse cx="70" cy="30" rx="18" ry="22" fill="#1a1008"/>
+              <ellipse cx="115" cy="25" rx="19" ry="23" fill="#1a1008"/>
+              <path d="M55,50 L90,50 L100,180 L45,180 Z" fill="#1a1008"/>
+              <path d="M100,50 L135,50 L145,240 L95,240 Z" fill="#1a1008"/>
+              <path d="M45,180 Q30,220 25,300 L100,300 L100,180 Z" fill="#1a1008"/>
+              <path d="M95,240 L145,240 L155,300 L95,300 Z" fill="#1a1008"/>
+            </g>
+            <rect y="440" width="400" height="80" fill="#1a1008" opacity=".7"/>
+          </svg>
+        </div>
+        <div class="story-meta">
+          <div class="couple">Ananya & Rohan</div>
+          <div class="location">Nandi Hills · Sunrise</div>
+          <div class="caption">A first-light shoot above the clouds, wrapped in silk and silence.</div>
+        </div>
+      </a>
+
+      <a href="#" class="story-card fade">
+        <div class="img">
+          <svg viewBox="0 0 400 380" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="s2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2d1f10"/><stop offset="100%" stop-color="#8a6d40"/></linearGradient></defs>
+            <rect width="400" height="380" fill="url(#s2)"/>
+            <!-- palace pillars -->
+            <rect x="60" y="80" width="30" height="300" fill="#3d2a15"/>
+            <rect x="310" y="80" width="30" height="300" fill="#3d2a15"/>
+            <rect x="55" y="70" width="40" height="15" fill="#5a3f22"/>
+            <rect x="305" y="70" width="40" height="15" fill="#5a3f22"/>
+            <!-- arch -->
+            <path d="M90,90 Q200,20 310,90 L310,120 Q200,50 90,120 Z" fill="#3d2a15"/>
+            <!-- couple centered -->
+            <g transform="translate(170,200)">
+              <ellipse cx="30" cy="20" rx="14" ry="17" fill="#0a0503"/>
+              <ellipse cx="65" cy="18" rx="15" ry="18" fill="#0a0503"/>
+              <path d="M18,38 L45,38 L52,140 L15,140 Z" fill="#0a0503"/>
+              <path d="M52,38 L80,38 L85,140 L52,140 Z" fill="#0a0503"/>
+            </g>
+            <circle cx="200" cy="60" r="30" fill="#f4d296" opacity=".4"/>
+          </svg>
+        </div>
+        <div class="story-meta">
+          <div class="couple">Meera & Arjun</div>
+          <div class="location">Bangalore Palace</div>
+          <div class="caption">Regal architecture, warm brass tones, an heirloom saree in motion.</div>
+        </div>
+      </a>
+
+      <a href="#" class="story-card fade">
+        <div class="img">
+          <svg viewBox="0 0 400 480" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="s3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5a4a30"/><stop offset="100%" stop-color="#1a1408"/></linearGradient></defs>
+            <rect width="400" height="480" fill="url(#s3)"/>
+            <!-- lush foliage silhouettes -->
+            <path d="M0,300 Q60,220 120,290 Q180,230 240,300 Q300,240 360,290 Q400,270 400,300 L400,480 L0,480 Z" fill="#0a0805"/>
+            <path d="M0,340 Q100,290 200,340 Q300,300 400,340 L400,480 L0,480 Z" fill="#050403"/>
+            <!-- couple walking -->
+            <g transform="translate(150,220)">
+              <ellipse cx="40" cy="20" rx="13" ry="16" fill="#0a0503"/>
+              <ellipse cx="75" cy="22" rx="14" ry="17" fill="#0a0503"/>
+              <path d="M28,36 L52,36 L48,170 L20,170 Z" fill="#0a0503"/>
+              <path d="M62,38 L90,38 L92,170 L62,170 Z" fill="#0a0503"/>
+            </g>
+            <!-- fairy lights -->
+            <g fill="#f4d296">
+              <circle cx="60" cy="80" r="2"/><circle cx="120" cy="100" r="2"/>
+              <circle cx="180" cy="70" r="2"/><circle cx="240" cy="110" r="2"/>
+              <circle cx="300" cy="85" r="2"/><circle cx="350" cy="95" r="2"/>
+              <circle cx="90" cy="140" r="1.5"/><circle cx="200" cy="150" r="1.5"/>
+              <circle cx="320" cy="145" r="1.5"/>
+            </g>
+          </svg>
+        </div>
+        <div class="story-meta">
+          <div class="couple">Priya & Vikram</div>
+          <div class="location">Lalbagh Botanical</div>
+          <div class="caption">Fairy-lit paths, twilight blues, and laughter caught mid-step.</div>
+        </div>
+      </a>
+
+      <a href="#" class="story-card fade">
+        <div class="img">
+          <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="s4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8b979"/><stop offset="100%" stop-color="#a06a35"/></linearGradient></defs>
+            <rect width="400" height="400" fill="url(#s4)"/>
+            <!-- lake -->
+            <rect y="260" width="400" height="140" fill="#4a3520" opacity=".8"/>
+            <path d="M0,260 Q100,255 200,260 Q300,255 400,260 L400,265 L0,265 Z" fill="#c9a45c" opacity=".4"/>
+            <!-- couple by the water -->
+            <g transform="translate(155,180)">
+              <ellipse cx="35" cy="15" rx="12" ry="14" fill="#0a0503"/>
+              <ellipse cx="65" cy="18" rx="13" ry="15" fill="#0a0503"/>
+              <path d="M24,28 L46,28 L44,85 L20,85 Z" fill="#0a0503"/>
+              <path d="M54,30 L78,30 L82,85 L54,85 Z" fill="#0a0503"/>
+              <!-- reflections -->
+              <ellipse cx="50" cy="105" rx="45" ry="8" fill="#0a0503" opacity=".3"/>
+            </g>
+            <circle cx="80" cy="80" r="28" fill="#fff5d6" opacity=".6"/>
+          </svg>
+        </div>
+        <div class="story-meta">
+          <div class="couple">Kavya & Aditya</div>
+          <div class="location">Devanahalli Estate</div>
+          <div class="caption">A private lakeside afternoon, gold reflections, film-grain warmth.</div>
+        </div>
+      </a>
+
+      <a href="#" class="story-card fade">
+        <div class="img">
+          <svg viewBox="0 0 400 560" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="s5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7a5a3a"/><stop offset="100%" stop-color="#2a1a0d"/></linearGradient></defs>
+            <rect width="400" height="560" fill="url(#s5)"/>
+            <!-- flower arch -->
+            <path d="M50,60 Q200,10 350,60 L350,90 Q200,40 50,90 Z" fill="#c9a45c" opacity=".6"/>
+            <g fill="#f4d296" opacity=".8">
+              <circle cx="80" cy="70" r="8"/><circle cx="110" cy="55" r="7"/>
+              <circle cx="150" cy="45" r="8"/><circle cx="200" cy="40" r="9"/>
+              <circle cx="250" cy="45" r="8"/><circle cx="290" cy="55" r="7"/>
+              <circle cx="320" cy="70" r="8"/>
+            </g>
+            <!-- couple close-up embracing -->
+            <g transform="translate(120,180)">
+              <ellipse cx="80" cy="60" rx="30" ry="38" fill="#0a0503"/>
+              <ellipse cx="140" cy="55" rx="32" ry="40" fill="#0a0503"/>
+              <path d="M50,110 L110,110 L120,340 L40,340 Z" fill="#0a0503"/>
+              <path d="M110,110 L175,110 L180,340 L110,340 Z" fill="#0a0503"/>
+              <!-- floating veil -->
+              <path d="M55,80 Q10,120 5,220 Q20,180 55,140 Z" fill="#0a0503" opacity=".5"/>
+            </g>
+          </svg>
+        </div>
+        <div class="story-meta">
+          <div class="couple">Sneha & Karthik</div>
+          <div class="location">Taj Yeshwantpur</div>
+          <div class="caption">Marigold arches, temple bells, the softest morning of the year.</div>
+        </div>
+      </a>
+
+      <a href="#" class="story-card fade">
+        <div class="img">
+          <svg viewBox="0 0 400 340" xmlns="http://www.w3.org/2000/svg">
+            <defs><linearGradient id="s6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a1408"/><stop offset="100%" stop-color="#8a6d40"/></linearGradient></defs>
+            <rect width="400" height="340" fill="url(#s6)"/>
+            <!-- vintage car -->
+            <g transform="translate(60,180)">
+              <path d="M0,50 L40,20 L200,20 L240,50 L280,50 L280,90 L0,90 Z" fill="#0a0503"/>
+              <circle cx="60" cy="90" r="18" fill="#2a1a10"/>
+              <circle cx="60" cy="90" r="10" fill="#0a0503"/>
+              <circle cx="220" cy="90" r="18" fill="#2a1a10"/>
+              <circle cx="220" cy="90" r="10" fill="#0a0503"/>
+              <rect x="60" y="30" width="60" height="30" fill="#5a3f22" opacity=".6"/>
+              <rect x="130" y="30" width="60" height="30" fill="#5a3f22" opacity=".6"/>
+            </g>
+            <!-- couple leaning on car -->
+            <g transform="translate(190,140)">
+              <ellipse cx="15" cy="15" rx="10" ry="13" fill="#0a0503"/>
+              <ellipse cx="40" cy="17" rx="11" ry="14" fill="#0a0503"/>
+              <path d="M5,28 L25,28 L23,70 L2,70 Z" fill="#0a0503"/>
+              <path d="M32,30 L52,30 L54,70 L32,70 Z" fill="#0a0503"/>
+            </g>
+            <circle cx="60" cy="50" r="20" fill="#f4d296" opacity=".5"/>
+          </svg>
+        </div>
+        <div class="story-meta">
+          <div class="couple">Riya & Nikhil</div>
+          <div class="location">Cubbon Park Boulevard</div>
+          <div class="caption">Vintage car, retro edit, a nod to old-world Bangalore.</div>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ LOCATIONS ============ -->
+<section class="locations" id="locations">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">Signature Locations</span>
+      <h2>Where <em>Bangalore</em> becomes your backdrop</h2>
+      <p>Hand-picked settings — from misty hilltops to heritage palaces — each scouted for its light, mood, and cinematic possibility.</p>
+    </div>
+
+    <div class="loc-grid">
+      <div class="loc-card fade">
+        <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="l1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8a5a30"/><stop offset="60%" stop-color="#c9a45c"/><stop offset="100%" stop-color="#f4d296"/></linearGradient></defs>
+          <rect width="400" height="550" fill="url(#l1)"/>
+          <!-- clouds/valley layers -->
+          <path d="M0,340 Q100,300 200,340 Q300,310 400,340 L400,400 L0,400 Z" fill="#e8c88a" opacity=".6"/>
+          <path d="M0,380 Q100,350 200,380 Q300,360 400,380 L400,420 L0,420 Z" fill="#c9a45c" opacity=".7"/>
+          <path d="M0,300 L80,260 L180,290 L280,240 L400,280 L400,330 L0,330 Z" fill="#5a3f22"/>
+          <path d="M0,330 L100,295 L220,320 L340,285 L400,310 L400,360 L0,360 Z" fill="#3d2a15"/>
+          <!-- couple on cliff -->
+          <g transform="translate(170,240)">
+            <ellipse cx="25" cy="15" rx="8" ry="10" fill="#0a0503"/>
+            <ellipse cx="45" cy="17" rx="9" ry="11" fill="#0a0503"/>
+            <path d="M18,25 L32,25 L30,60 L15,60 Z" fill="#0a0503"/>
+            <path d="M38,27 L54,27 L56,60 L38,60 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="overlay">
+          <div class="num">01</div>
+          <h3>Nandi Hills</h3>
+          <div class="time">5:30 AM · Sunrise</div>
+          <a class="view">View Story</a>
+        </div>
+      </div>
+
+      <div class="loc-card fade">
+        <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="l2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4a6a3a"/><stop offset="100%" stop-color="#1a2a10"/></linearGradient></defs>
+          <rect width="400" height="550" fill="url(#l2)"/>
+          <!-- lush foliage -->
+          <ellipse cx="80" cy="180" rx="80" ry="90" fill="#2a4020" opacity=".8"/>
+          <ellipse cx="320" cy="200" rx="90" ry="100" fill="#2a4020" opacity=".8"/>
+          <ellipse cx="200" cy="140" rx="70" ry="80" fill="#3a5028" opacity=".7"/>
+          <path d="M0,400 Q100,370 200,400 Q300,380 400,400 L400,550 L0,550 Z" fill="#0f1a08"/>
+          <!-- couple on path -->
+          <g transform="translate(170,300)">
+            <ellipse cx="30" cy="20" rx="10" ry="13" fill="#0a0503"/>
+            <ellipse cx="55" cy="22" rx="11" ry="14" fill="#0a0503"/>
+            <path d="M20,35 L42,35 L38,90 L18,90 Z" fill="#0a0503"/>
+            <path d="M46,37 L68,37 L70,90 L46,90 Z" fill="#0a0503"/>
+          </g>
+          <!-- light rays -->
+          <path d="M100,0 L120,300 L80,300 Z" fill="#f4d296" opacity=".2"/>
+          <path d="M280,0 L320,320 L260,320 Z" fill="#f4d296" opacity=".15"/>
+        </svg>
+        <div class="overlay">
+          <div class="num">02</div>
+          <h3>Lalbagh Gardens</h3>
+          <div class="time">6:00 AM · Golden Hour</div>
+          <a class="view">View Story</a>
+        </div>
+      </div>
+
+      <div class="loc-card fade">
+        <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="l3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9884a"/><stop offset="100%" stop-color="#3d2a15"/></linearGradient></defs>
+          <rect width="400" height="550" fill="url(#l3)"/>
+          <!-- palace facade -->
+          <rect x="40" y="150" width="320" height="400" fill="#5a3f22"/>
+          <rect x="30" y="140" width="340" height="20" fill="#8a6a3d"/>
+          <!-- towers -->
+          <rect x="30" y="80" width="50" height="100" fill="#5a3f22"/>
+          <polygon points="30,80 55,40 80,80" fill="#3d2a15"/>
+          <rect x="320" y="80" width="50" height="100" fill="#5a3f22"/>
+          <polygon points="320,80 345,40 370,80" fill="#3d2a15"/>
+          <!-- windows -->
+          <path d="M90,240 Q120,200 150,240 L150,320 L90,320 Z" fill="#2a1a10"/>
+          <path d="M170,240 Q200,200 230,240 L230,320 L170,320 Z" fill="#2a1a10"/>
+          <path d="M250,240 Q280,200 310,240 L310,320 L250,320 Z" fill="#2a1a10"/>
+          <!-- couple in front -->
+          <g transform="translate(170,400)">
+            <ellipse cx="30" cy="20" rx="11" ry="14" fill="#0a0503"/>
+            <ellipse cx="55" cy="22" rx="12" ry="15" fill="#0a0503"/>
+            <path d="M18,36 L42,36 L38,120 L14,120 Z" fill="#0a0503"/>
+            <path d="M46,38 L70,38 L72,120 L46,120 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="overlay">
+          <div class="num">03</div>
+          <h3>Bangalore Palace</h3>
+          <div class="time">4:30 PM · Amber Light</div>
+          <a class="view">View Story</a>
+        </div>
+      </div>
+
+      <div class="loc-card fade">
+        <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="l4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#f4d296"/><stop offset="100%" stop-color="#8a6d40"/></linearGradient></defs>
+          <rect width="400" height="550" fill="url(#l4)"/>
+          <!-- resort silhouette / poolside -->
+          <rect y="380" width="400" height="60" fill="#4a80a8" opacity=".5"/>
+          <rect y="430" width="400" height="120" fill="#8a6d40"/>
+          <!-- palm trees -->
+          <g transform="translate(50,200)">
+            <rect x="15" y="0" width="6" height="200" fill="#3d2a15"/>
+            <path d="M18,0 Q0,-20 -20,-10 Q-5,5 18,0 Z" fill="#2a4020"/>
+            <path d="M18,0 Q35,-25 55,-10 Q35,5 18,0 Z" fill="#2a4020"/>
+            <path d="M18,0 Q10,-30 25,-40 Q30,-15 18,0 Z" fill="#2a4020"/>
+          </g>
+          <g transform="translate(320,220)">
+            <rect x="15" y="0" width="6" height="180" fill="#3d2a15"/>
+            <path d="M18,0 Q0,-15 -18,-5 Q-3,8 18,0 Z" fill="#2a4020"/>
+            <path d="M18,0 Q38,-20 55,-5 Q35,8 18,0 Z" fill="#2a4020"/>
+          </g>
+          <!-- couple by pool -->
+          <g transform="translate(170,330)">
+            <ellipse cx="25" cy="15" rx="9" ry="12" fill="#0a0503"/>
+            <ellipse cx="50" cy="17" rx="10" ry="13" fill="#0a0503"/>
+            <path d="M16,28 L36,28 L34,65 L14,65 Z" fill="#0a0503"/>
+            <path d="M40,30 L60,30 L62,65 L40,65 Z" fill="#0a0503"/>
+          </g>
+          <circle cx="80" cy="80" r="35" fill="#fff5d6" opacity=".6"/>
+        </svg>
+        <div class="overlay">
+          <div class="num">04</div>
+          <h3>Angsana Resort</h3>
+          <div class="time">5:30 PM · Poolside Blue</div>
+          <a class="view">View Story</a>
+        </div>
+      </div>
+
+      <div class="loc-card fade">
+        <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="l5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a5028"/><stop offset="100%" stop-color="#0f1a08"/></linearGradient></defs>
+          <rect width="400" height="550" fill="url(#l5)"/>
+          <!-- vineyard rows -->
+          <g fill="#1a2a10" opacity=".8">
+            <rect y="380" width="400" height="8"/>
+            <rect y="420" width="400" height="10"/>
+            <rect y="470" width="400" height="12"/>
+            <rect y="520" width="400" height="15"/>
+          </g>
+          <!-- trees -->
+          <ellipse cx="60" cy="300" rx="40" ry="60" fill="#2a4020"/>
+          <ellipse cx="340" cy="290" rx="45" ry="65" fill="#2a4020"/>
+          <!-- couple centered -->
+          <g transform="translate(170,320)">
+            <ellipse cx="30" cy="15" rx="10" ry="13" fill="#0a0503"/>
+            <ellipse cx="55" cy="17" rx="11" ry="14" fill="#0a0503"/>
+            <path d="M20,28 L40,28 L38,80 L17,80 Z" fill="#0a0503"/>
+            <path d="M46,30 L68,30 L70,80 L46,80 Z" fill="#0a0503"/>
+          </g>
+          <!-- setting sun -->
+          <circle cx="200" cy="200" r="45" fill="#f4d296" opacity=".7"/>
+          <ellipse cx="200" cy="220" rx="120" ry="25" fill="#c9a45c" opacity=".3"/>
+        </svg>
+        <div class="overlay">
+          <div class="num">05</div>
+          <h3>Grover Vineyards</h3>
+          <div class="time">6:15 PM · Blue Hour</div>
+          <a class="view">View Story</a>
+        </div>
+      </div>
+
+      <div class="loc-card fade">
+        <svg viewBox="0 0 400 550" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+          <defs><linearGradient id="l6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8a6d40"/><stop offset="100%" stop-color="#2a1a0d"/></linearGradient></defs>
+          <rect width="400" height="550" fill="url(#l6)"/>
+          <!-- heritage arches -->
+          <path d="M50,150 L50,400 M50,150 Q120,80 190,150 M190,150 L190,400" stroke="#3d2a15" stroke-width="20" fill="none"/>
+          <path d="M210,150 L210,400 M210,150 Q280,80 350,150 M350,150 L350,400" stroke="#3d2a15" stroke-width="20" fill="none"/>
+          <rect y="400" width="400" height="150" fill="#2a1a0d"/>
+          <!-- couple silhouette in arch -->
+          <g transform="translate(170,260)">
+            <ellipse cx="30" cy="18" rx="10" ry="13" fill="#0a0503"/>
+            <ellipse cx="52" cy="20" rx="11" ry="14" fill="#0a0503"/>
+            <path d="M20,32 L40,32 L38,130 L16,130 Z" fill="#0a0503"/>
+            <path d="M44,34 L66,34 L68,130 L44,130 Z" fill="#0a0503"/>
+          </g>
+          <!-- warm light through arches -->
+          <ellipse cx="120" cy="220" rx="35" ry="80" fill="#f4d296" opacity=".2"/>
+          <ellipse cx="280" cy="220" rx="35" ry="80" fill="#f4d296" opacity=".2"/>
+        </svg>
+        <div class="overlay">
+          <div class="num">06</div>
+          <h3>Devanahalli Fort</h3>
+          <div class="time">4:00 PM · Heritage</div>
+          <a class="view">View Story</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ YOUTUBE FILMS ============ -->
+<section class="films" id="films">
+  <div class="container">
+    <div class="section-head fade">
+      <div class="yt-badge">
+        <svg viewBox="0 0 24 24"><path d="M23.5 6.2c-.3-1-1-1.8-2-2C19.6 3.7 12 3.7 12 3.7s-7.6 0-9.5.5c-1 .2-1.7 1-2 2C0 8.1 0 12 0 12s0 3.9.5 5.8c.3 1 1 1.8 2 2 1.9.5 9.5.5 9.5.5s7.6 0 9.5-.5c1-.2 1.7-1 2-2 .5-1.9.5-5.8.5-5.8s0-3.9-.5-5.8zM9.6 15.6V8.4l6.3 3.6-6.3 3.6z"/></svg>
+        <span>Cinematic Films</span>
+      </div>
+      <h2>Where love plays <em>on the big screen</em></h2>
+      <p>A curated selection of pre-wedding films — hand-scored, colour-graded, and cut like short cinema. Watch a story unfold in motion.</p>
+    </div>
+
+    <!-- Featured Film -->
+    <div class="film-featured fade">
+      <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="fSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#2d1808"/>
+            <stop offset="45%" stop-color="#8a4a20"/>
+            <stop offset="80%" stop-color="#d9a458"/>
+            <stop offset="100%" stop-color="#f4d296"/>
+          </linearGradient>
+          <radialGradient id="fSun" cx="70%" cy="60%" r="20%">
+            <stop offset="0%" stop-color="#fff8e0" stop-opacity=".9"/>
+            <stop offset="100%" stop-color="#fff8e0" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+        <rect width="1600" height="900" fill="url(#fSky)"/>
+        <rect width="1600" height="900" fill="url(#fSun)"/>
+        <circle cx="1120" cy="540" r="70" fill="#fff8e0" opacity=".85"/>
+        <!-- distant hills -->
+        <path d="M0,660 L200,620 L400,650 L620,610 L840,640 L1080,600 L1300,635 L1500,610 L1600,625 L1600,900 L0,900 Z" fill="#8a5a30" opacity=".55"/>
+        <path d="M0,720 L220,690 L440,715 L680,680 L920,710 L1160,675 L1400,705 L1600,690 L1600,900 L0,900 Z" fill="#3a2515"/>
+        <!-- ground -->
+        <rect y="820" width="1600" height="80" fill="#1a0f08"/>
+        <!-- Couple twirling -->
+        <g transform="translate(700,570)">
+          <!-- her flowing dress -->
+          <path d="M100,80 Q60,160 40,240 Q50,270 90,275 L170,275 Q210,270 220,240 Q200,160 160,80 Z" fill="#0a0503"/>
+          <!-- her head -->
+          <ellipse cx="130" cy="50" rx="15" ry="18" fill="#0a0503"/>
+          <path d="M118,68 L142,68 L140,110 L120,110 Z" fill="#0a0503"/>
+          <!-- his body dipping her -->
+          <ellipse cx="185" cy="55" rx="16" ry="19" fill="#0a0503"/>
+          <path d="M172,72 L200,72 L210,180 L170,180 Z" fill="#0a0503"/>
+          <path d="M170,180 L210,180 L215,275 L165,275 Z" fill="#0a0503"/>
+          <!-- his arm holding -->
+          <path d="M172,82 Q140,90 108,90 L112,105 Q145,110 175,100 Z" fill="#0a0503"/>
+          <!-- her veil trailing -->
+          <path d="M115,60 Q50,90 20,180 Q15,195 25,190 Q65,150 118,100 Z" fill="#0a0503" opacity=".55"/>
+        </g>
+        <!-- lens flare -->
+        <circle cx="1120" cy="540" r="4" fill="#fff" opacity=".9"/>
+        <circle cx="850" cy="640" r="2" fill="#fff" opacity=".5"/>
+        <circle cx="1300" cy="450" r="3" fill="#fff" opacity=".4"/>
+        <!-- dust particles -->
+        <g fill="#fff5d6" opacity=".5">
+          <circle cx="300" cy="350" r="1.5"/><circle cx="500" cy="500" r="1"/>
+          <circle cx="800" cy="400" r="1.5"/><circle cx="1050" cy="350" r="1"/>
+          <circle cx="1350" cy="600" r="1.5"/>
+        </g>
+      </svg>
+      <div class="play-btn"></div>
+      <div class="film-meta">
+        <span class="film-tag">Featured Film · 2:48</span>
+        <h3>Ananya × Rohan — <em>Above the Clouds</em></h3>
+        <div class="film-info">
+          <span>Nandi Hills</span>
+          <span>Cinematic Reel</span>
+          <span>1.2M Views</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Shorts -->
+    <div class="shorts-header fade">
+      <h3>YouTube <em>Shorts</em></h3>
+      <a href="#">Visit our channel</a>
+    </div>
+
+    <div class="shorts-grid">
+      <div class="short-card fade">
+        <svg viewBox="0 0 300 530" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="sh1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9884a"/><stop offset="100%" stop-color="#2a1a0d"/></linearGradient></defs>
+          <rect width="300" height="530" fill="url(#sh1)"/>
+          <circle cx="220" cy="140" r="45" fill="#fff5d6" opacity=".6"/>
+          <path d="M0,380 Q75,360 150,380 Q225,365 300,380 L300,530 L0,530 Z" fill="#1a0f08"/>
+          <g transform="translate(105,240)">
+            <ellipse cx="35" cy="20" rx="13" ry="16" fill="#0a0503"/>
+            <ellipse cx="65" cy="22" rx="14" ry="17" fill="#0a0503"/>
+            <path d="M22,38 L48,38 L44,150 L18,150 Z" fill="#0a0503"/>
+            <path d="M52,40 L78,40 L82,150 L52,150 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <span class="duration">0:47</span>
+        <div class="play-mini"></div>
+        <div class="short-meta">
+          <div class="short-title">The First Look</div>
+          <div class="short-views">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zm0 12.5a5 5 0 110-10 5 5 0 010 10z"/></svg>
+            842K views
+          </div>
+        </div>
+      </div>
+
+      <div class="short-card fade">
+        <svg viewBox="0 0 300 530" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="sh2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a5028"/><stop offset="100%" stop-color="#0f1a08"/></linearGradient></defs>
+          <rect width="300" height="530" fill="url(#sh2)"/>
+          <ellipse cx="60" cy="180" rx="65" ry="80" fill="#2a4020" opacity=".8"/>
+          <ellipse cx="240" cy="200" rx="70" ry="85" fill="#2a4020" opacity=".8"/>
+          <path d="M0,400 Q75,380 150,400 Q225,385 300,400 L300,530 L0,530 Z" fill="#050403"/>
+          <g transform="translate(110,270)">
+            <ellipse cx="30" cy="18" rx="12" ry="15" fill="#0a0503"/>
+            <ellipse cx="55" cy="20" rx="13" ry="16" fill="#0a0503"/>
+            <path d="M20,35 L42,35 L38,140 L17,140 Z" fill="#0a0503"/>
+            <path d="M46,37 L68,37 L70,140 L46,140 Z" fill="#0a0503"/>
+          </g>
+          <g fill="#f4d296"><circle cx="50" cy="100" r="2"/><circle cx="120" cy="80" r="2"/><circle cx="200" cy="90" r="2"/><circle cx="260" cy="120" r="2"/></g>
+        </svg>
+        <span class="duration">0:58</span>
+        <div class="play-mini"></div>
+        <div class="short-meta">
+          <div class="short-title">Fairy-lit Vows</div>
+          <div class="short-views">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zm0 12.5a5 5 0 110-10 5 5 0 010 10z"/></svg>
+            612K views
+          </div>
+        </div>
+      </div>
+
+      <div class="short-card fade">
+        <svg viewBox="0 0 300 530" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="sh3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8a6d40"/><stop offset="100%" stop-color="#2a1a0d"/></linearGradient></defs>
+          <rect width="300" height="530" fill="url(#sh3)"/>
+          <path d="M40,120 L40,380 M40,120 Q90,60 140,120 M140,120 L140,380" stroke="#3d2a15" stroke-width="16" fill="none"/>
+          <path d="M160,120 L160,380 M160,120 Q210,60 260,120 M260,120 L260,380" stroke="#3d2a15" stroke-width="16" fill="none"/>
+          <rect y="380" width="300" height="150" fill="#2a1a0d"/>
+          <g transform="translate(115,230)">
+            <ellipse cx="30" cy="18" rx="12" ry="15" fill="#0a0503"/>
+            <ellipse cx="52" cy="20" rx="13" ry="16" fill="#0a0503"/>
+            <path d="M18,35 L42,35 L38,150 L14,150 Z" fill="#0a0503"/>
+            <path d="M44,37 L68,37 L72,150 L44,150 Z" fill="#0a0503"/>
+          </g>
+          <ellipse cx="90" cy="200" rx="25" ry="70" fill="#f4d296" opacity=".2"/>
+          <ellipse cx="210" cy="200" rx="25" ry="70" fill="#f4d296" opacity=".2"/>
+        </svg>
+        <span class="duration">1:12</span>
+        <div class="play-mini"></div>
+        <div class="short-meta">
+          <div class="short-title">Palace of Whispers</div>
+          <div class="short-views">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zm0 12.5a5 5 0 110-10 5 5 0 010 10z"/></svg>
+            1.1M views
+          </div>
+        </div>
+      </div>
+
+      <div class="short-card fade">
+        <svg viewBox="0 0 300 530" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="sh4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8b979"/><stop offset="100%" stop-color="#5a3a1a"/></linearGradient></defs>
+          <rect width="300" height="530" fill="url(#sh4)"/>
+          <circle cx="220" cy="150" r="55" fill="#fff5d6" opacity=".7"/>
+          <rect y="360" width="300" height="60" fill="#4a3520" opacity=".7"/>
+          <rect y="410" width="300" height="120" fill="#3a2515"/>
+          <path d="M0,360 Q75,355 150,360 Q225,355 300,360 L300,368 L0,368 Z" fill="#c9a45c" opacity=".5"/>
+          <g transform="translate(110,240)">
+            <ellipse cx="30" cy="20" rx="12" ry="15" fill="#0a0503"/>
+            <ellipse cx="55" cy="22" rx="13" ry="16" fill="#0a0503"/>
+            <path d="M20,38 L42,38 L38,110 L17,110 Z" fill="#0a0503"/>
+            <path d="M46,40 L68,40 L70,110 L46,110 Z" fill="#0a0503"/>
+            <ellipse cx="45" cy="130" rx="40" ry="6" fill="#0a0503" opacity=".3"/>
+          </g>
+        </svg>
+        <span class="duration">0:52</span>
+        <div class="play-mini"></div>
+        <div class="short-meta">
+          <div class="short-title">Golden Lakeside</div>
+          <div class="short-views">
+            <svg viewBox="0 0 24 24"><path d="M12 4.5C7 4.5 2.7 7.6 1 12c1.7 4.4 6 7.5 11 7.5s9.3-3.1 11-7.5c-1.7-4.4-6-7.5-11-7.5zm0 12.5a5 5 0 110-10 5 5 0 010 10z"/></svg>
+            428K views
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPROACH ============ -->
+<section class="approach" id="approach">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">Our Approach</span>
+      <h2>Cinematic. Candid. <em>Considered.</em></h2>
+      <p>A four-part philosophy that guides every frame we make — from scouting to the final hand-bound album.</p>
+    </div>
+    <div class="approach-grid">
+      <div class="approach-item fade">
+        <div class="num">01</div>
+        <h4>Story First</h4>
+        <p>We begin with a long conversation. Your love language, your quirks, the moments that made you.</p>
+      </div>
+      <div class="approach-item fade">
+        <div class="num">02</div>
+        <h4>Natural Light</h4>
+        <p>We chase golden hours, blue hours, and the quiet gaps between them. No harsh flash. Ever.</p>
+      </div>
+      <div class="approach-item fade">
+        <div class="num">03</div>
+        <h4>Guided Ease</h4>
+        <p>Gentle direction that draws real emotion — not stiff poses. You'll forget the camera is there.</p>
+      </div>
+      <div class="approach-item fade">
+        <div class="num">04</div>
+        <h4>Editorial Craft</h4>
+        <p>Every frame is hand-graded in a signature palette — warm, timeless, unmistakably yours.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TRUST / STATS ============ -->
+<section class="trust">
+  <div class="container">
+    <div class="trust-grid">
+      <div class="trust-item fade">
+        <div class="num">450<sup>+</sup></div>
+        <div class="trust-divider"></div>
+        <div class="label">Couples Photographed</div>
+      </div>
+      <div class="trust-item fade">
+        <div class="num">11</div>
+        <div class="trust-divider"></div>
+        <div class="label">Years of Craft</div>
+      </div>
+      <div class="trust-item fade">
+        <div class="num">18</div>
+        <div class="trust-divider"></div>
+        <div class="label">Industry Awards</div>
+      </div>
+      <div class="trust-item fade">
+        <div class="num">4.9</div>
+        <div class="trust-divider"></div>
+        <div class="label">Google Rating</div>
+      </div>
+    </div>
+    <div class="publications fade">
+      <p>As Featured In</p>
+      <div class="pub-logos">
+        <div class="pub-logo">WeddingSutra</div>
+        <div class="pub-logo">Vogue India</div>
+        <div class="pub-logo">The Knot</div>
+        <div class="pub-logo">WedMeGood</div>
+        <div class="pub-logo">Brides Today</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BEFORE / AFTER ============ -->
+<section class="compare">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">The Edit</span>
+      <h2>From frame <em>to feeling</em></h2>
+      <p>Every image passes through hours of hand-crafted colour work — the difference between a photograph and a memory you can hold.</p>
+    </div>
+    <div class="compare-wrap fade">
+      <div class="slider" id="slider">
+        <div class="before">
+          <!-- Raw / flat version -->
+          <svg viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <rect width="1200" height="750" fill="#8a8a80"/>
+            <rect width="1200" height="750" fill="#a5a094" opacity=".4"/>
+            <!-- sky flat -->
+            <rect width="1200" height="420" fill="#b5b0a0"/>
+            <!-- ground flat -->
+            <rect y="420" width="1200" height="330" fill="#6a6558"/>
+            <!-- couple -->
+            <g transform="translate(500,340)">
+              <ellipse cx="80" cy="40" rx="22" ry="28" fill="#4a4238"/>
+              <ellipse cx="140" cy="38" rx="24" ry="30" fill="#4a4238"/>
+              <path d="M60,68 L100,68 L110,240 L52,240 Z" fill="#5a5248"/>
+              <path d="M115,68 L165,68 L170,240 L110,240 Z" fill="#5a5248"/>
+            </g>
+          </svg>
+        </div>
+        <div class="after">
+          <!-- Graded / cinematic version -->
+          <svg viewBox="0 0 1200 750" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="cSky" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0%" stop-color="#5a3520"/>
+                <stop offset="60%" stop-color="#c9884a"/>
+                <stop offset="100%" stop-color="#f4d296"/>
+              </linearGradient>
+              <radialGradient id="cSun" cx="80%" cy="45%" r="25%">
+                <stop offset="0%" stop-color="#fff5d6"/>
+                <stop offset="100%" stop-color="#fff5d6" stop-opacity="0"/>
+              </radialGradient>
+            </defs>
+            <rect width="1200" height="750" fill="url(#cSky)"/>
+            <rect width="1200" height="750" fill="url(#cSun)"/>
+            <circle cx="960" cy="340" r="55" fill="#fff8e0" opacity=".9"/>
+            <rect y="420" width="1200" height="330" fill="#3a2515"/>
+            <path d="M0,420 Q300,395 600,420 Q900,405 1200,420 L1200,460 L0,460 Z" fill="#c9a45c" opacity=".3"/>
+            <!-- couple warmer, glowing -->
+            <g transform="translate(500,340)">
+              <ellipse cx="80" cy="40" rx="22" ry="28" fill="#0a0503"/>
+              <ellipse cx="140" cy="38" rx="24" ry="30" fill="#0a0503"/>
+              <path d="M60,68 L100,68 L110,240 L52,240 Z" fill="#0a0503"/>
+              <path d="M115,68 L165,68 L170,240 L110,240 Z" fill="#0a0503"/>
+              <!-- rim light -->
+              <path d="M164,10 Q170,50 170,240 L175,240 L172,10 Z" fill="#f4d296" opacity=".4"/>
+            </g>
+            <!-- bokeh -->
+            <circle cx="150" cy="200" r="8" fill="#f4d296" opacity=".3"/>
+            <circle cx="300" cy="150" r="6" fill="#f4d296" opacity=".4"/>
+            <circle cx="1050" cy="500" r="10" fill="#f4d296" opacity=".3"/>
+          </svg>
+        </div>
+        <div class="label l">Raw</div>
+        <div class="label r">Firos Edit</div>
+        <div class="handle" id="handle"></div>
+        <div class="knob" id="knob">◀ ▶</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="testimonials">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">Kind Words</span>
+      <h2>What our <em>couples say</em></h2>
+    </div>
+    <div class="testi-track">
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p>Firos didn't just photograph us — he made us feel like the only two people in the world. When we opened the album, we cried. Every single frame is a memory we didn't know we had.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">A</div>
+          <div>
+            <div class="testi-name">Ananya & Rohan</div>
+            <div class="testi-role">Married Feb 2025</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p>We were the most awkward couple in front of a camera. He made us laugh, cry, and forget the lens entirely. The final gallery looks like a Bollywood film — but tender, personal, ours.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">M</div>
+          <div>
+            <div class="testi-name">Meera & Arjun</div>
+            <div class="testi-role">Bangalore Palace</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p>The scouting, the styling notes, the patience with our families — it went far beyond photography. He is a storyteller who happens to hold a camera.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">P</div>
+          <div>
+            <div class="testi-name">Priya & Vikram</div>
+            <div class="testi-role">Lalbagh · 2024</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <div class="quote-mark">"</div>
+        <p>Worth every rupee and then some. Ten years from now these will still be the photographs above our mantelpiece. Timeless is the only word.</p>
+        <div class="testi-author">
+          <div class="testi-avatar">K</div>
+          <div>
+            <div class="testi-name">Kavya & Aditya</div>
+            <div class="testi-role">Destination · Coorg</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ INSTAGRAM ============ -->
+<section class="instagram" id="instagram">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">On Instagram</span>
+      <h2>Live from <em>the studio</em></h2>
+      <p>Behind-the-scenes, freshly delivered stories, and everyday moments from our shoots across Bangalore.</p>
+      <a href="https://instagram.com/firosphotography" class="ig-handle">
+        <svg viewBox="0 0 24 24"><path d="M12 2.2c3.2 0 3.6 0 4.8.1 1.2 0 1.8.2 2.2.4.6.2 1 .5 1.4.9.4.4.7.9.9 1.4.2.4.4 1 .4 2.2.1 1.2.1 1.6.1 4.8s0 3.6-.1 4.8c0 1.2-.2 1.8-.4 2.2-.2.6-.5 1-.9 1.4-.4.4-.9.7-1.4.9-.4.2-1 .4-2.2.4-1.2.1-1.6.1-4.8.1s-3.6 0-4.8-.1c-1.2 0-1.8-.2-2.2-.4-.6-.2-1-.5-1.4-.9-.4-.4-.7-.9-.9-1.4-.2-.4-.4-1-.4-2.2-.1-1.2-.1-1.6-.1-4.8s0-3.6.1-4.8c0-1.2.2-1.8.4-2.2.2-.6.5-1 .9-1.4.4-.4.9-.7 1.4-.9.4-.2 1-.4 2.2-.4C8.4 2.2 8.8 2.2 12 2.2M12 0C8.7 0 8.3 0 7.1.1 5.8.1 5 .3 4.2.6c-.8.3-1.5.7-2.2 1.4C1.3 2.7.9 3.4.6 4.2.3 5 .1 5.8.1 7.1 0 8.3 0 8.7 0 12s0 3.7.1 4.9c.1 1.3.3 2.1.6 2.9.3.8.7 1.5 1.4 2.2.7.7 1.4 1.1 2.2 1.4.8.3 1.6.5 2.9.6 1.2.1 1.6.1 4.9.1s3.7 0 4.9-.1c1.3-.1 2.1-.3 2.9-.6.8-.3 1.5-.7 2.2-1.4.7-.7 1.1-1.4 1.4-2.2.3-.8.5-1.6.6-2.9.1-1.2.1-1.6.1-4.9s0-3.7-.1-4.9c-.1-1.3-.3-2.1-.6-2.9-.3-.8-.7-1.5-1.4-2.2C21.3 1.3 20.6.9 19.8.6 19 .3 18.2.1 16.9.1 15.7 0 15.3 0 12 0zm0 5.8c-3.4 0-6.2 2.8-6.2 6.2s2.8 6.2 6.2 6.2 6.2-2.8 6.2-6.2S15.4 5.8 12 5.8zm0 10.2c-2.2 0-4-1.8-4-4s1.8-4 4-4 4 1.8 4 4-1.8 4-4 4zm6.4-11.8c-.8 0-1.4.6-1.4 1.4s.6 1.4 1.4 1.4 1.4-.6 1.4-1.4-.6-1.4-1.4-1.4z"/></svg>
+        @firosphotography
+      </a>
+    </div>
+
+    <!-- Reels Carousel -->
+    <div class="reels-track fade">
+      <div class="reel-card">
+        <svg viewBox="0 0 260 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="r1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d9a458"/><stop offset="100%" stop-color="#4a2a12"/></linearGradient></defs>
+          <rect width="260" height="460" fill="url(#r1)"/>
+          <circle cx="200" cy="120" r="40" fill="#fff5d6" opacity=".6"/>
+          <path d="M0,320 Q65,300 130,320 Q195,305 260,320 L260,460 L0,460 Z" fill="#1a0f08"/>
+          <g transform="translate(85,210)">
+            <ellipse cx="30" cy="18" rx="12" ry="15" fill="#0a0503"/>
+            <ellipse cx="55" cy="20" rx="13" ry="16" fill="#0a0503"/>
+            <path d="M20,35 L42,35 L38,120 L17,120 Z" fill="#0a0503"/>
+            <path d="M46,37 L68,37 L70,120 L46,120 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="reel-overlay">
+          <div class="reel-top">
+            <svg class="reel-icon" viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z" fill="#fff"/></svg>
+            <div class="plays">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              238K
+            </div>
+          </div>
+          <div class="reel-bottom">
+            <div class="reel-title">"When she saw him first…"</div>
+            <div class="reel-caption"><b>#nandihills</b> · #prewedding</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reel-card">
+        <svg viewBox="0 0 260 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="r2" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3d2a15"/><stop offset="100%" stop-color="#8a6d40"/></linearGradient></defs>
+          <rect width="260" height="460" fill="url(#r2)"/>
+          <rect x="35" y="80" width="20" height="280" fill="#5a3f22"/>
+          <rect x="205" y="80" width="20" height="280" fill="#5a3f22"/>
+          <path d="M55,90 Q130,40 205,90 L205,110 Q130,60 55,110 Z" fill="#5a3f22"/>
+          <g transform="translate(100,200)">
+            <ellipse cx="28" cy="18" rx="11" ry="14" fill="#0a0503"/>
+            <ellipse cx="50" cy="20" rx="12" ry="15" fill="#0a0503"/>
+            <path d="M18,32 L38,32 L36,130 L15,130 Z" fill="#0a0503"/>
+            <path d="M40,34 L62,34 L64,130 L40,130 Z" fill="#0a0503"/>
+          </g>
+          <circle cx="130" cy="70" r="22" fill="#f4d296" opacity=".4"/>
+        </svg>
+        <div class="reel-overlay">
+          <div class="reel-top">
+            <svg class="reel-icon" viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z" fill="#fff"/></svg>
+            <div class="plays">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              412K
+            </div>
+          </div>
+          <div class="reel-bottom">
+            <div class="reel-title">Bridal saree flow</div>
+            <div class="reel-caption"><b>#bangalorepalace</b> · #reels</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reel-card">
+        <svg viewBox="0 0 260 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="r3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5a4a30"/><stop offset="100%" stop-color="#0f0a05"/></linearGradient></defs>
+          <rect width="260" height="460" fill="url(#r3)"/>
+          <path d="M0,260 Q40,200 85,255 Q130,210 175,255 Q220,215 260,255 L260,460 L0,460 Z" fill="#0a0805"/>
+          <g fill="#f4d296"><circle cx="40" cy="80" r="1.5"/><circle cx="80" cy="100" r="1.5"/><circle cx="130" cy="70" r="1.5"/><circle cx="180" cy="110" r="1.5"/><circle cx="220" cy="85" r="1.5"/></g>
+          <g transform="translate(95,200)">
+            <ellipse cx="28" cy="18" rx="11" ry="14" fill="#0a0503"/>
+            <ellipse cx="52" cy="20" rx="12" ry="15" fill="#0a0503"/>
+            <path d="M18,32 L38,32 L34,130 L15,130 Z" fill="#0a0503"/>
+            <path d="M44,34 L64,34 L66,130 L44,130 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="reel-overlay">
+          <div class="reel-top">
+            <svg class="reel-icon" viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z" fill="#fff"/></svg>
+            <div class="plays">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              156K
+            </div>
+          </div>
+          <div class="reel-bottom">
+            <div class="reel-title">Fairy-lit twirl</div>
+            <div class="reel-caption"><b>#lalbagh</b> · #couplereels</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reel-card">
+        <svg viewBox="0 0 260 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="r4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8b979"/><stop offset="100%" stop-color="#5a3a1a"/></linearGradient></defs>
+          <rect width="260" height="460" fill="url(#r4)"/>
+          <rect y="300" width="260" height="50" fill="#4a80a8" opacity=".5"/>
+          <rect y="345" width="260" height="115" fill="#8a6d40"/>
+          <g transform="translate(30,170)">
+            <rect x="10" y="0" width="4" height="150" fill="#3d2a15"/>
+            <path d="M12,0 Q-5,-15 -18,-5 Q-3,8 12,0 Z" fill="#2a4020"/>
+            <path d="M12,0 Q30,-20 45,-5 Q28,8 12,0 Z" fill="#2a4020"/>
+          </g>
+          <g transform="translate(95,240)">
+            <ellipse cx="28" cy="15" rx="10" ry="13" fill="#0a0503"/>
+            <ellipse cx="50" cy="17" rx="11" ry="14" fill="#0a0503"/>
+            <path d="M20,28 L38,28 L34,80 L18,80 Z" fill="#0a0503"/>
+            <path d="M42,30 L60,30 L62,80 L42,80 Z" fill="#0a0503"/>
+          </g>
+          <circle cx="200" cy="90" r="30" fill="#fff5d6" opacity=".6"/>
+        </svg>
+        <div class="reel-overlay">
+          <div class="reel-top">
+            <svg class="reel-icon" viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z" fill="#fff"/></svg>
+            <div class="plays">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              89K
+            </div>
+          </div>
+          <div class="reel-bottom">
+            <div class="reel-title">Poolside gold hour</div>
+            <div class="reel-caption"><b>#destinationshoot</b> · #luxury</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reel-card">
+        <svg viewBox="0 0 260 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="r5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7a5a3a"/><stop offset="100%" stop-color="#2a1a0d"/></linearGradient></defs>
+          <rect width="260" height="460" fill="url(#r5)"/>
+          <path d="M30,60 Q130,15 230,60 L230,80 Q130,35 30,80 Z" fill="#c9a45c" opacity=".6"/>
+          <g fill="#f4d296" opacity=".9"><circle cx="50" cy="68" r="6"/><circle cx="90" cy="55" r="5"/><circle cx="130" cy="45" r="6"/><circle cx="170" cy="55" r="5"/><circle cx="210" cy="68" r="6"/></g>
+          <g transform="translate(85,170)">
+            <ellipse cx="35" cy="35" rx="22" ry="27" fill="#0a0503"/>
+            <ellipse cx="75" cy="30" rx="24" ry="29" fill="#0a0503"/>
+            <path d="M18,68 L52,68 L56,240 L15,240 Z" fill="#0a0503"/>
+            <path d="M55,68 L98,68 L100,240 L55,240 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="reel-overlay">
+          <div class="reel-top">
+            <svg class="reel-icon" viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z" fill="#fff"/></svg>
+            <div class="plays">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              524K
+            </div>
+          </div>
+          <div class="reel-bottom">
+            <div class="reel-title">Marigold morning</div>
+            <div class="reel-caption"><b>#taj</b> · #intimateweddings</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="reel-card">
+        <svg viewBox="0 0 260 460" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="r6" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a5028"/><stop offset="100%" stop-color="#0f1a08"/></linearGradient></defs>
+          <rect width="260" height="460" fill="url(#r6)"/>
+          <g fill="#1a2a10" opacity=".8"><rect y="320" width="260" height="6"/><rect y="350" width="260" height="8"/><rect y="385" width="260" height="10"/><rect y="425" width="260" height="12"/></g>
+          <circle cx="130" cy="180" r="38" fill="#f4d296" opacity=".7"/>
+          <ellipse cx="130" cy="200" rx="100" ry="20" fill="#c9a45c" opacity=".3"/>
+          <g transform="translate(100,240)">
+            <ellipse cx="28" cy="14" rx="10" ry="13" fill="#0a0503"/>
+            <ellipse cx="50" cy="16" rx="11" ry="14" fill="#0a0503"/>
+            <path d="M18,26 L38,26 L36,85 L16,85 Z" fill="#0a0503"/>
+            <path d="M42,28 L62,28 L64,85 L42,85 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="reel-overlay">
+          <div class="reel-top">
+            <svg class="reel-icon" viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z" fill="#fff"/></svg>
+            <div class="plays">
+              <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+              192K
+            </div>
+          </div>
+          <div class="reel-bottom">
+            <div class="reel-title">Vineyard sunset</div>
+            <div class="reel-caption"><b>#grovervineyards</b> · #bluehour</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Instagram Grid -->
+    <div class="ig-grid">
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig1" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9884a"/><stop offset="100%" stop-color="#4a2a12"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig1)"/>
+          <circle cx="230" cy="90" r="35" fill="#fff5d6" opacity=".6"/>
+          <g transform="translate(115,130)"><ellipse cx="30" cy="18" rx="12" ry="15" fill="#0a0503"/><ellipse cx="55" cy="20" rx="13" ry="16" fill="#0a0503"/><path d="M20,35 L42,35 L40,130 L18,130 Z" fill="#0a0503"/><path d="M46,37 L68,37 L70,130 L46,130 Z" fill="#0a0503"/></g>
+        </svg>
+        <div class="ig-badge"><svg viewBox="0 0 24 24"><path d="M20 3H4v3h16V3zM4 21h16v-3H4v3zm0-9h6v6H4v-6zm7-6h9v9h-9V6z"/></svg></div>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 2.4k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 48</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#2d1f10"/><stop offset="100%" stop-color="#8a6d40"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig2)"/>
+          <rect x="40" y="60" width="22" height="220" fill="#3d2a15"/>
+          <rect x="238" y="60" width="22" height="220" fill="#3d2a15"/>
+          <path d="M62,70 Q150,20 238,70 L238,90 Q150,40 62,90 Z" fill="#3d2a15"/>
+          <g transform="translate(120,150)"><ellipse cx="28" cy="16" rx="11" ry="13" fill="#0a0503"/><ellipse cx="52" cy="18" rx="12" ry="14" fill="#0a0503"/><path d="M18,30 L38,30 L36,120 L16,120 Z" fill="#0a0503"/><path d="M42,32 L62,32 L64,120 L42,120 Z" fill="#0a0503"/></g>
+          <circle cx="150" cy="55" r="20" fill="#f4d296" opacity=".4"/>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 3.8k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 92</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig3" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5a4a30"/><stop offset="100%" stop-color="#1a1408"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig3)"/>
+          <path d="M0,180 Q60,120 120,180 Q180,130 240,180 Q285,150 300,180 L300,300 L0,300 Z" fill="#0a0805"/>
+          <g transform="translate(110,130)"><ellipse cx="30" cy="18" rx="11" ry="14" fill="#0a0503"/><ellipse cx="55" cy="20" rx="12" ry="15" fill="#0a0503"/><path d="M20,32 L40,32 L36,120 L17,120 Z" fill="#0a0503"/><path d="M46,34 L68,34 L70,120 L46,120 Z" fill="#0a0503"/></g>
+          <g fill="#f4d296"><circle cx="50" cy="70" r="2"/><circle cx="120" cy="90" r="2"/><circle cx="200" cy="70" r="2"/><circle cx="260" cy="90" r="2"/></g>
+        </svg>
+        <div class="ig-badge"><svg viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z"/></svg></div>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 5.1k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 124</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#e8b979"/><stop offset="100%" stop-color="#8a6a3d"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig4)"/>
+          <rect y="190" width="300" height="110" fill="#4a3520" opacity=".8"/>
+          <path d="M0,190 Q75,185 150,190 Q225,185 300,190 L300,196 L0,196 Z" fill="#c9a45c" opacity=".4"/>
+          <g transform="translate(115,120)"><ellipse cx="28" cy="15" rx="10" ry="13" fill="#0a0503"/><ellipse cx="50" cy="17" rx="11" ry="14" fill="#0a0503"/><path d="M20,28 L38,28 L36,72 L18,72 Z" fill="#0a0503"/><path d="M42,30 L60,30 L62,72 L42,72 Z" fill="#0a0503"/></g>
+          <circle cx="60" cy="70" r="25" fill="#fff5d6" opacity=".6"/>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 2.9k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 61</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig5" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#7a5a3a"/><stop offset="100%" stop-color="#2a1a0d"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig5)"/>
+          <path d="M30,50 Q150,10 270,50 L270,70 Q150,30 30,70 Z" fill="#c9a45c" opacity=".6"/>
+          <g fill="#f4d296" opacity=".8"><circle cx="60" cy="60" r="6"/><circle cx="110" cy="45" r="5"/><circle cx="150" cy="38" r="6"/><circle cx="190" cy="45" r="5"/><circle cx="240" cy="60" r="6"/></g>
+          <g transform="translate(105,120)"><ellipse cx="45" cy="30" rx="22" ry="25" fill="#0a0503"/><ellipse cx="75" cy="27" rx="23" ry="27" fill="#0a0503"/><path d="M25,58 L55,58 L58,180 L22,180 Z" fill="#0a0503"/><path d="M60,58 L98,58 L100,180 L60,180 Z" fill="#0a0503"/></g>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 4.6k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 108</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig6" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#1a1408"/><stop offset="100%" stop-color="#8a6d40"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig6)"/>
+          <g transform="translate(30,140)">
+            <path d="M0,45 L35,15 L175,15 L210,45 L245,45 L245,80 L0,80 Z" fill="#0a0503"/>
+            <circle cx="55" cy="80" r="15" fill="#2a1a10"/><circle cx="55" cy="80" r="8" fill="#0a0503"/>
+            <circle cx="195" cy="80" r="15" fill="#2a1a10"/><circle cx="195" cy="80" r="8" fill="#0a0503"/>
+            <rect x="55" y="25" width="50" height="25" fill="#5a3f22" opacity=".6"/>
+            <rect x="115" y="25" width="50" height="25" fill="#5a3f22" opacity=".6"/>
+          </g>
+          <circle cx="60" cy="60" r="22" fill="#f4d296" opacity=".5"/>
+        </svg>
+        <div class="ig-badge"><svg viewBox="0 0 24 24"><path d="M17 2H7C4.2 2 2 4.2 2 7v10c0 2.8 2.2 5 5 5h10c2.8 0 5-2.2 5-5V7c0-2.8-2.2-5-5-5zM10 15.5v-7l6 3.5-6 3.5z"/></svg></div>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 3.2k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 74</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig7" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#8a5a30"/><stop offset="100%" stop-color="#f4d296"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig7)"/>
+          <path d="M0,170 L60,140 L140,160 L220,130 L300,155 L300,200 L0,200 Z" fill="#5a3f22"/>
+          <path d="M0,200 L80,175 L180,195 L260,170 L300,185 L300,220 L0,220 Z" fill="#3d2a15"/>
+          <g transform="translate(125,130)"><ellipse cx="25" cy="12" rx="9" ry="12" fill="#0a0503"/><ellipse cx="48" cy="14" rx="10" ry="13" fill="#0a0503"/><path d="M17,24 L34,24 L32,65 L15,65 Z" fill="#0a0503"/><path d="M40,26 L58,26 L60,65 L40,65 Z" fill="#0a0503"/></g>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 6.7k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 156</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig8" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#3a5028"/><stop offset="100%" stop-color="#0f1a08"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig8)"/>
+          <g fill="#1a2a10" opacity=".8"><rect y="200" width="300" height="6"/><rect y="225" width="300" height="8"/><rect y="255" width="300" height="10"/><rect y="285" width="300" height="12"/></g>
+          <ellipse cx="45" cy="150" rx="30" ry="45" fill="#2a4020"/>
+          <ellipse cx="255" cy="145" rx="32" ry="48" fill="#2a4020"/>
+          <g transform="translate(120,150)"><ellipse cx="28" cy="14" rx="10" ry="13" fill="#0a0503"/><ellipse cx="50" cy="16" rx="11" ry="14" fill="#0a0503"/><path d="M18,26 L38,26 L36,80 L16,80 Z" fill="#0a0503"/><path d="M42,28 L62,28 L64,80 L42,80 Z" fill="#0a0503"/></g>
+          <circle cx="150" cy="80" r="30" fill="#f4d296" opacity=".7"/>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 3.5k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 82</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig9" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#d9a458"/><stop offset="100%" stop-color="#4a2a12"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig9)"/>
+          <circle cx="240" cy="80" r="35" fill="#fff5d6" opacity=".7"/>
+          <path d="M0,220 Q75,205 150,220 Q225,210 300,220 L300,300 L0,300 Z" fill="#1a0f08"/>
+          <g transform="translate(105,140)"><ellipse cx="35" cy="20" rx="14" ry="17" fill="#0a0503"/><ellipse cx="65" cy="22" rx="15" ry="18" fill="#0a0503"/><path d="M22,40 L48,40 L46,150 L20,150 Z" fill="#0a0503"/><path d="M52,42 L78,42 L80,150 L52,150 Z" fill="#0a0503"/></g>
+        </svg>
+        <div class="ig-badge"><svg viewBox="0 0 24 24"><path d="M20 3H4v3h16V3zM4 21h16v-3H4v3zm0-9h6v6H4v-6zm7-6h9v9h-9V6z"/></svg></div>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 4.1k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 96</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig10" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#c9a45c"/><stop offset="100%" stop-color="#5a3a1a"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig10)"/>
+          <path d="M40,90 L40,220 M40,90 Q100,40 160,90 M160,90 L160,220" stroke="#3d2a15" stroke-width="14" fill="none"/>
+          <rect y="220" width="300" height="80" fill="#2a1a0d"/>
+          <g transform="translate(85,140)"><ellipse cx="28" cy="14" rx="10" ry="13" fill="#0a0503"/><ellipse cx="50" cy="16" rx="11" ry="14" fill="#0a0503"/><path d="M18,26 L38,26 L34,90 L16,90 Z" fill="#0a0503"/><path d="M42,28 L62,28 L64,90 L42,90 Z" fill="#0a0503"/></g>
+          <ellipse cx="100" cy="150" rx="25" ry="60" fill="#f4d296" opacity=".2"/>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 2.7k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 54</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig11" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#f4d296"/><stop offset="100%" stop-color="#8a6a3d"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig11)"/>
+          <circle cx="80" cy="80" r="30" fill="#e8b979" opacity=".4"/>
+          <circle cx="230" cy="120" r="40" fill="#f0c88a" opacity=".3"/>
+          <g transform="translate(120,120)">
+            <ellipse cx="30" cy="60" rx="20" ry="25" fill="#0a0503"/>
+            <path d="M12,88 L50,88 L46,220 L14,220 Z" fill="#0a0503"/>
+            <rect x="18" y="98" width="30" height="20" rx="3" fill="#2a1a0d"/>
+            <circle cx="33" cy="108" r="7" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 1.8k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 38</span>
+        </div>
+      </div>
+
+      <div class="ig-tile fade">
+        <svg viewBox="0 0 300 300" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+          <defs><linearGradient id="ig12" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#4a2a12"/><stop offset="100%" stop-color="#c9884a"/></linearGradient></defs>
+          <rect width="300" height="300" fill="url(#ig12)"/>
+          <circle cx="150" cy="150" r="80" fill="#8a5a30" opacity=".4"/>
+          <g transform="translate(115,140)">
+            <ellipse cx="30" cy="20" rx="18" ry="22" fill="#0a0503"/>
+            <ellipse cx="55" cy="18" rx="19" ry="23" fill="#0a0503"/>
+            <path d="M15,40 L45,40 L48,90 L12,90 Z" fill="#0a0503"/>
+            <path d="M45,40 L75,40 L78,90 L45,90 Z" fill="#0a0503"/>
+          </g>
+        </svg>
+        <div class="ig-hover">
+          <span><svg viewBox="0 0 24 24"><path d="M12 21l-1.4-1.3C5.4 15 2 12 2 8.3 2 5.4 4.3 3 7.2 3c1.6 0 3.2.8 4.8 2.4C13.6 3.8 15.2 3 16.8 3 19.7 3 22 5.4 22 8.3c0 3.7-3.4 6.7-8.6 11.4L12 21z"/></svg> 5.9k</span>
+          <span><svg viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-2 .9-2 2v18l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> 142</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
+<section class="packages" id="packages">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">Investment</span>
+      <h2>Three <em>Stories</em>. One Craft.</h2>
+      <p>Every package is a doorway — thoughtfully composed, endlessly personalised. Choose the chapter that fits, and we'll write the rest together.</p>
+    </div>
+    <div class="pkg-grid">
+      <div class="pkg fade">
+        <div class="pkg-name">Signature Story</div>
+        <div class="pkg-tag">The Essential Chapter</div>
+        <div class="pkg-price">Starting from<strong>₹65,000</strong></div>
+        <ul>
+          <li>Half-day shoot · one location in Bangalore</li>
+          <li>4 hours of coverage · one photographer</li>
+          <li>2 wardrobe changes</li>
+          <li>80+ hand-edited high-resolution images</li>
+          <li>Private online gallery for one year</li>
+          <li>10×10 fine-art album, 20 pages</li>
+        </ul>
+        <a href="#cta" class="btn-primary">Enquire</a>
+      </div>
+      <div class="pkg featured fade">
+        <div class="pkg-name">Luxury Moments</div>
+        <div class="pkg-tag">Most Chosen</div>
+        <div class="pkg-price">Starting from<strong>₹1,25,000</strong></div>
+        <ul>
+          <li>Full-day shoot · two locations across the city</li>
+          <li>8 hours of coverage · lead + assistant</li>
+          <li>Unlimited wardrobe changes</li>
+          <li>150+ hand-edited images + 60-second reel</li>
+          <li>Wardrobe & location consult included</li>
+          <li>12×12 heirloom album with velvet slipcase</li>
+          <li>One canvas print (24×36 inches)</li>
+        </ul>
+        <a href="#cta" class="btn-primary">Enquire</a>
+      </div>
+      <div class="pkg fade">
+        <div class="pkg-name">Destination Romance</div>
+        <div class="pkg-tag">Beyond the City</div>
+        <div class="pkg-price">Starting from<strong>₹2,50,000</strong></div>
+        <ul>
+          <li>2-day shoot · Coorg, Ooty, Udaipur or Goa</li>
+          <li>Travel, stay & scouting included</li>
+          <li>Cinematographer + still photographer</li>
+          <li>250+ images · 3-minute cinematic film</li>
+          <li>Bespoke styling & floral direction</li>
+          <li>Handcrafted leather-bound album, 40 pages</li>
+          <li>Framed gallery set of 6 prints</li>
+        </ul>
+        <a href="#cta" class="btn-primary">Enquire</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ SEO CONTENT ============ -->
+<section class="seo" id="about">
+  <div class="container">
+
+    <div class="seo-hero fade">
+      <span class="eyebrow">The Studio</span>
+      <h2>Bangalore's Premier <em>Pre-Wedding Photography</em> Studio</h2>
+      <p class="lede">Firos Photography is a boutique pre-wedding photography studio based in Bangalore, crafting cinematic couple stories for discerning Indian couples. Over the last eleven years, we've photographed 450+ love stories across Nandi Hills, Lalbagh Botanical Garden, Bangalore Palace, Devanahalli Fort, Coorg, Chikmagalur, and beyond — earning a reputation as the most trusted name in luxury pre-wedding photography in South India.</p>
+    </div>
+
+    <!-- Two-column editorial blocks -->
+    <div class="seo-cols">
+
+      <div class="col fade">
+        <div class="seo-block">
+          <h3>What makes Firos Photography <em>different</em></h3>
+          <p>Most pre-wedding studios in Bangalore follow the same playbook — the same locations, the same poses, the same filter. We don't. Every shoot begins with a long conversation about who you are, how you met, and the small rituals that make your relationship yours.</p>
+          <p>Our team is trained in <strong>editorial fashion photography, documentary storytelling, and Indian cultural direction</strong> — a rare combination that produces imagery that feels both timelessly cinematic and unmistakably personal. We shoot exclusively in natural light, avoid stiff posing, and hand-grade every frame in a signature warm palette that ages beautifully.</p>
+        </div>
+
+        <div class="seo-block">
+          <h3>Photography styles <em>we offer</em></h3>
+          <ul class="seo-list">
+            <li><strong>Cinematic Pre-Wedding</strong>Film-inspired storytelling with wide anamorphic framing, motion, and mood. Ideal for couples who love visual drama.</li>
+            <li><strong>Editorial Fashion Pre-Wedding</strong>Magazine-style portraiture with directed styling, structured lighting, and high-end wardrobe. For couples who see their shoot as art.</li>
+            <li><strong>Candid Documentary</strong>Unposed, in-the-moment coverage that captures real laughter, glances, and touch. The choice for couples uneasy with the camera.</li>
+            <li><strong>Traditional Indian Pre-Wedding</strong>Cultural aesthetics honouring heritage — sarees, sherwanis, temple settings, marigolds, ancestral jewellery — shot with modern craft.</li>
+            <li><strong>Destination Pre-Wedding</strong>Multi-day cinematic productions in Coorg, Chikmagalur, Hampi, Udaipur, Goa, and Pondicherry. Stay, travel, styling included.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="col fade">
+        <div class="seo-block">
+          <h3>The best pre-wedding <em>locations in Bangalore</em></h3>
+          <p>Bangalore is one of India's most photogenic cities for pre-wedding photography — a rare mix of colonial architecture, botanical gardens, misty hilltops, boutique resorts, and heritage forts, all within a two-hour drive.</p>
+          <p>Our most-loved locations include <strong>Nandi Hills</strong> for sunrise shoots above the clouds, <strong>Lalbagh Botanical Garden</strong> for lush morning light, <strong>Bangalore Palace</strong> for regal architectural drama, <strong>Devanahalli Fort</strong> for heritage arches, <strong>Grover Zampa Vineyards</strong> for blue-hour romance, and premium resorts like <strong>Angsana Oasis, Taj Yeshwantpur, Shangri-La, and The Leela Palace</strong> for cinematic indoor-outdoor sessions.</p>
+          <p>Every location is pre-scouted for its light direction, mood, and cinematic potential — and where permits are required, we handle every arrangement on your behalf.</p>
+        </div>
+
+        <div class="seo-block">
+          <h3>Photographer <em>expertise</em></h3>
+          <p>Firos, our founder and lead photographer, brings over a decade of specialised experience in pre-wedding and wedding photography. His work has been featured in <strong>WeddingSutra, Vogue India, WedMeGood, The Knot, and Brides Today</strong>, and recognised with 18 industry awards including WeddingSutra Favourites and the Canon Wedding Photographer of the Year shortlist.</p>
+          <p>Our studio operates with a lead photographer, a second shooter, a dedicated colour-grading artist, and album designers — every shoot is a team production, never an outsourced job. We shoot on <strong>Sony Alpha and Canon R5 cinema systems</strong> with a full complement of prime lenses, drones, and continuous LED lighting for low-light coverage.</p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Full-width Booking Process block -->
+    <div class="seo-full fade">
+      <h3>The <em>Booking Process</em></h3>
+      <div class="sub">From first hello to final album</div>
+
+      <div class="seo-steps">
+        <div class="seo-step">
+          <div class="step-num">01</div>
+          <h4>Enquiry</h4>
+          <p>Share your date, preferred locations, and story with us via WhatsApp, email, or our booking form. We respond personally within 24 hours.</p>
+        </div>
+        <div class="seo-step">
+          <div class="step-num">02</div>
+          <h4>Discovery Call</h4>
+          <p>A 45-minute video call to understand your love story, aesthetic preferences, and shoot vision. We share the full portfolio and package details.</p>
+        </div>
+        <div class="seo-step">
+          <div class="step-num">03</div>
+          <h4>Planning &amp; Styling</h4>
+          <p>Location finalisation, wardrobe moodboard, permit handling, hair &amp; makeup coordination, and a detailed shot list — all curated by our team.</p>
+        </div>
+        <div class="seo-step">
+          <div class="step-num">04</div>
+          <h4>Shoot Day</h4>
+          <p>A relaxed, guided experience across your chosen locations, with our team directing gently and capturing candidly throughout the day.</p>
+        </div>
+      </div>
+
+      <div class="seo-keywords">
+        <p>Trusted for</p>
+        <div class="tags">
+          <span class="tag">Best Pre-Wedding Photographer in Bangalore</span>
+          <span class="tag">Luxury Wedding Photography Bangalore</span>
+          <span class="tag">Nandi Hills Pre-Wedding Shoot</span>
+          <span class="tag">Cinematic Couple Photography</span>
+          <span class="tag">Bangalore Palace Photoshoot</span>
+          <span class="tag">Destination Pre-Wedding India</span>
+          <span class="tag">Candid Wedding Photographer</span>
+          <span class="tag">Editorial Pre-Wedding Studio</span>
+          <span class="tag">Coorg Pre-Wedding Shoot</span>
+          <span class="tag">Lalbagh Couple Photography</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============ FAQ ============ -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="section-head fade">
+      <span class="eyebrow">Frequently Asked</span>
+      <h2>Answers, <em>gently gathered</em></h2>
+      <p>Everything you'd like to know before we begin the conversation.</p>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-q">What makes Firos Photography different from other pre-wedding photographers in Bangalore?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Our work is rooted in editorial storytelling, not templated poses. We spend a full pre-shoot session getting to know you — your favourite films, how you met, the small rituals of your relationship — and design the shoot around that. Every gallery is graded by hand in a signature warm palette that ages beautifully.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Which locations do you recommend for a Bangalore pre-wedding shoot?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Our most-loved locations are Nandi Hills at sunrise, Lalbagh Botanical Garden, Bangalore Palace, Devanahalli Fort, Grover Zampa Vineyards, and boutique resorts like Angsana Oasis and Taj Yeshwantpur. For adventurous couples, we also travel to Coorg, Chikmagalur, Hampi, and Udaipur.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">How far in advance should we book?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>We accept a limited number of couples each month to protect the quality of every experience. We recommend reserving your date 3–6 months in advance, particularly for October–February weekends and any destination shoot.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Do you help with wardrobe, styling, and location scouting?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Yes. Every package includes a dedicated planning call. For Luxury Moments and Destination Romance packages, we provide a full wardrobe moodboard, colour palette guidance, hair & make-up recommendations, and reserve locations that require permits.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">When will we receive our photographs?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>A curated set of 15 previews arrives within 7 days. The full hand-edited gallery is delivered within 4–6 weeks. Physical albums and prints ship 8–10 weeks after gallery approval.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q">Can we see a full shoot before booking?<span class="faq-toggle">+</span></button>
+        <div class="faq-a"><p>Absolutely. Once you enquire, we share complete recent galleries, sample albums, and a detailed brochure. You're welcome to visit our Indiranagar studio to hold the printed work in person.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA ============ -->
+<section class="cta" id="cta">
+  <div class="cta-bg">
+    <svg viewBox="0 0 1600 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg">
+      <defs><radialGradient id="ctaG" cx="50%" cy="50%" r="60%"><stop offset="0%" stop-color="#c9a45c" stop-opacity=".4"/><stop offset="100%" stop-color="#c9a45c" stop-opacity="0"/></radialGradient></defs>
+      <rect width="1600" height="900" fill="#1c1c1c"/>
+      <rect width="1600" height="900" fill="url(#ctaG)"/>
+      <g fill="#c9a45c" opacity=".4">
+        <circle cx="200" cy="200" r="1"/><circle cx="500" cy="300" r="1.5"/>
+        <circle cx="800" cy="150" r="1"/><circle cx="1100" cy="400" r="1.5"/>
+        <circle cx="1400" cy="250" r="1"/><circle cx="300" cy="600" r="1"/>
+        <circle cx="700" cy="700" r="1.5"/><circle cx="1200" cy="650" r="1"/>
+      </g>
+    </svg>
+  </div>
+  <div class="cta-content fade">
+    <span class="eyebrow" style="justify-content:center;color:var(--gold-soft)">Let's Begin</span>
+    <h2>Your story deserves<br><em>to be photographed like this.</em></h2>
+    <p>We take on a limited number of pre-wedding stories each month. Share a little about yours — we'll respond personally within 24 hours.</p>
+    <div class="cta-btns">
+      <a href="mailto:hello@firosphotography.com" class="btn-primary">Plan Your Pre-Wedding Shoot</a>
+      <a href="https://wa.me/919999999999" class="btn-outline">WhatsApp Us</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="container">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <h3>FIROS<span>.</span> PHOTOGRAPHY</h3>
+        <p>A boutique wedding photography studio based in Bangalore, crafting cinematic pre-wedding stories for couples across India and beyond.</p>
+      </div>
+      <div class="foot-col">
+        <h5>Studio</h5>
+        <a href="#">About Firos</a>
+        <a href="#stories">Journal</a>
+        <a href="#approach">Approach</a>
+        <a href="#">Press</a>
+      </div>
+      <div class="foot-col">
+        <h5>Work</h5>
+        <a href="#stories">Couple Stories</a>
+        <a href="#locations">Locations</a>
+        <a href="#packages">Packages</a>
+        <a href="#faq">FAQ</a>
+      </div>
+      <div class="foot-col">
+        <h5>Connect</h5>
+        <a href="#">Instagram</a>
+        <a href="#">Pinterest</a>
+        <a href="#">YouTube</a>
+        <p>hello@firosphotography.com</p>
+        <p>+91 99999 99999</p>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <div>© 2026 Firos Photography · Bangalore, India</div>
+      <div>Privacy · Terms · Sitemap</div>
+    </div>
+  </div>
+</footer>
+
+<a href="https://wa.me/919999999999" class="whatsapp-fab" aria-label="WhatsApp">
+  <svg viewBox="0 0 24 24"><path d="M17.5 14.4c-.3-.1-1.7-.9-2-1-.3-.1-.5-.1-.7.1-.2.3-.8 1-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.5-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.7-1.6-.9-2.2-.3-.6-.5-.5-.7-.5H8c-.2 0-.5.1-.7.3-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2 3.1 4.9 4.3.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 2-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.5-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.4 1.3 4.9L2 22l5.3-1.4c1.4.8 3 1.2 4.7 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.2.8.8-3.1-.2-.3c-.9-1.4-1.3-3-1.3-4.6C3.5 7.4 7.4 3.5 12 3.5s8.5 3.9 8.5 8.5-3.9 8.3-8.5 8.3z"/></svg>
+</a>
+
+<script>
+// Nav scroll behavior
+const nav = document.getElementById('nav');
+window.addEventListener('scroll', () => {
+  if(window.scrollY > 60){ nav.classList.add('scrolled'); nav.classList.remove('light'); }
+  else{ nav.classList.remove('scrolled'); nav.classList.add('light'); }
+});
+
+// Fade in on scroll
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{ if(e.isIntersecting) e.target.classList.add('in'); });
+},{threshold:.1});
+document.querySelectorAll('.fade').forEach(el=>observer.observe(el));
+
+// FAQ toggle
+document.querySelectorAll('.faq-q').forEach(q=>{
+  q.addEventListener('click', ()=>{
+    const item = q.parentElement;
+    document.querySelectorAll('.faq-item').forEach(i=>{ if(i!==item) i.classList.remove('open'); });
+    item.classList.toggle('open');
+  });
+});
+// Open first FAQ by default
+document.querySelector('.faq-item').classList.add('open');
+
+// Before/after slider
+const slider = document.getElementById('slider');
+const handle = document.getElementById('handle');
+const knob = document.getElementById('knob');
+const after = slider.querySelector('.after');
+let dragging = false;
+function move(x){
+  const rect = slider.getBoundingClientRect();
+  let pct = ((x - rect.left) / rect.width) * 100;
+  pct = Math.max(0, Math.min(100, pct));
+  handle.style.left = pct + '%';
+  knob.style.left = pct + '%';
+  after.style.clipPath = `inset(0 0 0 ${pct}%)`;
+}
+slider.addEventListener('mousedown', e=>{ dragging=true; move(e.clientX); });
+window.addEventListener('mousemove', e=>{ if(dragging) move(e.clientX); });
+window.addEventListener('mouseup', ()=>dragging=false);
+slider.addEventListener('touchstart', e=>{ dragging=true; move(e.touches[0].clientX); });
+window.addEventListener('touchmove', e=>{ if(dragging) move(e.touches[0].clientX); });
+window.addEventListener('touchend', ()=>dragging=false);
+</script>
+
+</body>
+</html>
